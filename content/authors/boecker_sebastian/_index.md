@@ -43,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: mailto:sebastian.boecker@uni-jena.de
 
 - icon: google-scholar
   icon_pack: ai
