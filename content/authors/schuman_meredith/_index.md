@@ -73,4 +73,4 @@ user_groups:
 - EMI Initiators
 
 ---
-Merry is Assistant Professor for [Spatial Genetics](https://www.geo.uzh.ch/en/units/sg.html) in the Departments of Geography and Chemistry, University of Zurich. Merry and the Spatial Genetics group investigate patterns of plant genetic diversity to know how plants interact with and function in their environments under global change. They work on projects combining direct analyses of plant tissue, and remote sensing techniques with the aim of developing approaches to assess genetic and chemotypic variation, plasticity, and adaptive potential within plant species, and their interactions.
+Merry is Assistant Professor for [Spatial Genetics](https://www.geo.uzh.ch/en/units/sg.html) in the Departments of Geography and Chemistry, University of Zurich. Merry and the Spatial Genetics group investigate patterns of plant genetic diversity to know how plants interact with, and function in, their environments under global change. Their projects combine direct analyses of plant tissue and remote sensing to assess genetic and chemotypic variation, plasticity, and adaptive potential within plant species, and their interactions.
