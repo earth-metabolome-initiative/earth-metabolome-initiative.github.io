@@ -18,6 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
+# This is for a one sentence bio ! For a slightly longer bio paragraph, please refer to the end of this file.
 bio: 
 
 # List each interest with a dash
