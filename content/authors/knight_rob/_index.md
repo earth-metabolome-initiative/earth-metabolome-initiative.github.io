@@ -66,4 +66,6 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - EMI Supporters
+
+# You can add your longer bio (a small paragraph) just below the header. That is just below the three small dashes.
 ---
