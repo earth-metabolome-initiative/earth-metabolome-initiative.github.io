@@ -18,7 +18,7 @@ organizations:
   url: "https://www.sib.swiss"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Dr. Tarcisio Mendes de Farias is a computer scientist specialized in data and knowledge management, working as a computational biologist at the SIB Swiss Institute of Bioinformatics. He is also the IT chair of the International Society for Biocuration. A full list of his scientific publications is available at https://purl.org/tarcisio/scholar.
+bio: 
 
 # List each interest with a dash
 interests:
@@ -28,14 +28,14 @@ interests:
 - Applied AI
 - Data integration and interoperability among biological data sources
 
-education:
-  courses:
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
+# education:
+#   courses:
+#   - course: Title course 1
+#     institution: Name of Institution
+#     year: 2012
+#   - course: Title course 1
+#     institution: Name of Institution
+#     year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:tarcisio.mendes@sib.swiss".
+  link: mailto:tarcisio.mendes@sib.swiss
 
 - icon: google-scholar
   icon_pack: ai
@@ -70,3 +70,4 @@ user_groups:
 - EMI Contributors
 
 ---
+Dr. Tarcisio Mendes de Farias is a computer scientist specialized in data and knowledge management, working as a computational biologist at the SIB Swiss Institute of Bioinformatics. He is also the IT chair of the International Society for Biocuration. A full list of his scientific publications is available at https://purl.org/tarcisio/scholar.
