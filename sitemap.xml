@@ -28,6 +28,10 @@
   <url>
     <loc>https://www.earthmetabolome.org/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://www.earthmetabolome.org/post/</loc><lastmod>2023-01-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://www.earthmetabolome.org/post/20230111_swissuniversities_grant/</loc><lastmod>2023-01-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://www.earthmetabolome.org/course/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.earthmetabolome.org/tag/current/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -47,8 +51,6 @@
     <loc>https://www.earthmetabolome.org/tag/statistics/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.earthmetabolome.org/post/20-12-02-icml-best-paper/</loc><lastmod>2020-12-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://www.earthmetabolome.org/post/</loc><lastmod>2020-12-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.earthmetabolome.org/post/20-12-01-wowchemy-prize/</loc><lastmod>2020-12-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -157,6 +159,8 @@
     <loc>https://www.earthmetabolome.org/author/gregor-kozlowski/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.earthmetabolome.org/author/hector-koolen/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://www.earthmetabolome.org/author/heloise-coen/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.earthmetabolome.org/author/henry-lutcke/</loc><changefreq>weekly</changefreq></url>
   <url>
