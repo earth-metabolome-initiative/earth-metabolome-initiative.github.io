@@ -360,7 +360,7 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;p&gt;dfgdfgdfjhg&lt;/p&gt;
 &lt;p&gt;And check this data  
 
-&lt;div id=&#34;chart-951327468&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-842316759&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -370,14 +370,14 @@ The variance of the distribution is $\sigma^{2}$.
       clearInterval( a );
 
       Plotly.d3.json(&#34;./inat.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-951327468&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-842316759&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
 And check this data  
 
-&lt;div id=&#34;chart-845136927&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-645783912&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -387,7 +387,7 @@ And check this data
       clearInterval( a );
 
       Plotly.d3.json(&#34;./DBGI_tree.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-845136927&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-645783912&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
