@@ -360,7 +360,7 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;p&gt;dfgdfgdfjhg&lt;/p&gt;
 &lt;p&gt;And check this data  
 
-&lt;div id=&#34;chart-842316759&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-948516372&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -370,14 +370,14 @@ The variance of the distribution is $\sigma^{2}$.
       clearInterval( a );
 
       Plotly.d3.json(&#34;./inat.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-842316759&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-948516372&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
 And check this data  
 
-&lt;div id=&#34;chart-645783912&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-419836725&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -387,7 +387,7 @@ And check this data
       clearInterval( a );
 
       Plotly.d3.json(&#34;./DBGI_tree.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-645783912&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-419836725&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -401,6 +401,7 @@ And check this data
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://www.earthmetabolome.org/members/</guid>
       <description>&lt;p&gt;Would you like to become a member? Watch &lt;a href=&#34;http://opentraits.org/members/aud-h-halbritter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aud Halbritter&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://youtu.be/bgVd-OHdZH4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;how-to-join video&lt;/a&gt; and introduce yourself &lt;a href=&#34;https://github.com/earth-metabolome-initiative/earth-metabolome-initiative.github.io/issues/new?assignees=earth-metabolome-initiative%2Feditors&amp;amp;labels=new&amp;#43;member&amp;amp;template=register-member.md&amp;amp;title=I%27d&amp;#43;like&amp;#43;to&amp;#43;join&amp;#43;the&amp;#43;Open&amp;#43;Traits&amp;#43;Network&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Don&amp;rsquo;t have a github account? Send an  {% include register-member-email.html -%} instead.&lt;/p&gt;
+&lt;p&gt;{% include editorial_status.html %}&lt;/p&gt;
 </description>
     </item>
     
