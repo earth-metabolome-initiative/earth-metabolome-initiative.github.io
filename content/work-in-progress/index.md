@@ -1,6 +1,6 @@
 ---
-title: What are we working on now ?
-summary: Here we share what we are working on in the frame of the EMI
+title: Want to join the EMI ?
+summary: Here we ar mirroring the OTN membership page to the EMI
 date: "2018-06-28T00:00:00Z"
 
 reading_time: false  # Show estimated reading time?
@@ -14,10 +14,4 @@ header:
   image: ""
 ---
 
-At the moment we are launching the Earth Metabolome Initiative.
-
-- We have started gathering a consortium of supporting researchers see [EMI Consortium]({{< relref "/people" >}})
-- We apply to funding opportunities
-- We are working on the Digital Botanical Gardens Initiative (DBGI) which is designed as a pilot for the EMI. Have a look at www.dbgi.org for more information and at our ongoing [Open DBGI Notebook](https://www.dbgi.org/dendron-dbgi/)
-
-More soon ...
+Would you like to become a member? Watch [Aud Halbritter](http://opentraits.org/members/aud-h-halbritter)'s [how-to-join video](https://youtu.be/bgVd-OHdZH4) and introduce yourself [here](https://github.com/earth-metabolome-initiative/earth-metabolome-initiative.github.io/issues/new?assignees=earth-metabolome-initiative%2Feditors&labels=new+member&template=register-member.md&title=I%27d+like+to+join+the+Open+Traits+Network). Don't have a github account? Send an  {% include register-member-email.html -%} instead.
