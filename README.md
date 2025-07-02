@@ -1,6 +1,5 @@
 # Hinode - Template
 
-
 <!-- Tagline -->
 <p align="center">
     <b>A clean documentation and blog theme for your Hugo site based on Bootstrap 5</b>

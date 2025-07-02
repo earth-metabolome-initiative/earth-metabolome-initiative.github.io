@@ -27,7 +27,6 @@ More soon ...
 
 {{< image src="img/logo.svg" ratio="1x1" class="rounded max-w-xs mx-auto" >}}
 
-
 {{< image src="/img/logo.svg" class="img-fluid w-50" wrapper="text-center" >}}
 
 {{< image src="img/emi_round_gold.svg" class="img-fluid w-50" wrapper="text-center" >}}
