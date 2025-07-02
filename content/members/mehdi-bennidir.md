@@ -23,6 +23,4 @@ Mehdi is a natural products chemist working at the University of Paris-Saclay in
 
 ## Collaboration statement
 
-
-
 {{< map >}}

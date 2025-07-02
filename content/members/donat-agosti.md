@@ -22,5 +22,4 @@ Donat is Swiss myrmecologist and open access activist.
 
 ## Collaboration statement
 
-
 {{< map >}}
