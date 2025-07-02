@@ -6,7 +6,7 @@ title: "I'd like to join the Earth Metabolome Initiative"
 assignees: "@earth-metabolome-initiative/core"
 ---
 
-Please update the template below and click "Submit" to let us know you'd like to become a member of the Open Traits Network. Please allow for some time for @earth-metabolome-initiative/core to review your request.
+Please update the template below and click "Create" to let us know you'd like to become a member of the Earth Metabolome Initiative. Please allow for some time for @earth-metabolome-initiative/core to review your request.
 
 ```
 ---
