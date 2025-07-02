@@ -2,8 +2,8 @@
 name: Register New Member
 about: Submit a request for new member to be added to the Earth Metabolome Initiative.
 labels: "new member"
-title: "I'd like to join the Open Traits Network"
-assignees: "open-traits-network/editors"
+title: "I'd like to join the Earth Metabolome Initiative"
+assignees: "@earth-metabolome-initiative/core"
 ---
 
 Please update the template below and click "Submit" to let us know you'd like to become a member of the Open Traits Network. Please allow for some time for @earth-metabolome-initiative/core to review your request.
