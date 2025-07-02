@@ -126,7 +126,7 @@
 # toml-docs-end sections
 
 [favicon]
-    logo = "img/favicon.png"
+    logo = "img/emi_round_gold.png"
     sizes = [16, 32, 48]
 
 [style]
@@ -149,23 +149,22 @@
 
 [schema]
     type = "Organization"
-    name = "Hinode"
+    name = "EMI"
     locale = "en-US"
     # twitter = "https://twitter.com/gethinode"
     # linkedIn = ""
     github = "https://github.com/gethinode/hinode"
     section = "blog"
     [schema.author]
-        name = "Mark Dumay"
-        # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
-        github = "https://github.com/markdumay"
+        name = "Earth Metabolome Initiative"
+        linkedin = "https://www.linkedin.com/company/earth-metabolome-initiative/"
+        github = "https://github.com/earth-metabolome-initiative"
     [schema.logo]
-        url = "img/logo512x512.png"
+        url = "img/emi_round_gold.png"
         width = 512
         height = 512
     [schema.image]
-        url = "img/logo1280x640.png"
+        url = "img/emi_round_gold.png"
         width = 1280
         height = 640
 
