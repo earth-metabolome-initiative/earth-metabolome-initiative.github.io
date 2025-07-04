@@ -1,0 +1,38 @@
+<!-- 
+    Copyright © 2024 The Hinode Team / Mark Dumay. All rights reserved.
+    Use of this source code is governed by The MIT License (MIT) that can be found in the LICENSE file.
+    Visit gethinode.com/license for more details.
+-->
+
+{{ $error := false }}
+
+<!-- Validate arguments -->
+{{ if partial "utilities/IsInvalidArgs.html" (dict "structure" "map" "args" .Params) }}
+    {{ errorf "Invalid arguments: %s" .Position -}}
+    {{ $error = true }}
+{{ end }}
+
+<!-- Initialize arguments -->
+
+{{- $id := printf "leaflet-map-%d" .Ordinal -}}
+{{ with .Get "id" }}
+    {{ $id = . }}
+{{ end }}
+
+{{ $class := .Get "class" | default .Page.Params.class | default "ratio ratio-16x9 w-100 mx-auto" }}
+{{ $zoom := .Get "zoom" | default .Page.Params.zoom | default 13 }}
+
+{{ $popup := .Get "popup" | default .Page.Params.popup | default "" }}
+{{ $popupLat := .Get "popup-lat" | default .Page.Params.popupLat | default "" }}
+{{ $popupLong := .Get "popup-long" | default .Page.Params.popupLong | default "" }}
+
+<!-- Main code -->
+{{- if not $error -}}
+    <div id="{{ $id }}" class="leaflet-map {{ $class }}"
+        data-leaflet-view-title="{{ .Page.Title }}"
+        {{ with $zoom }}data-leaflet-view-zoom="{{ . }}"{{ end }}
+        {{ with $popup }}data-leaflet-popup-caption="{{ . }}"{{ end }}
+        {{ with $popupLat }}data-leaflet-popup-lat="{{ . }}"{{ end }}
+        {{ with $popupLong }}data-leaflet-popup-long="{{ . }}"{{ end }}>
+    </div>
+{{- end -}}

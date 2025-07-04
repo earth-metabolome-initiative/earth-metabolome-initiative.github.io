@@ -16,11 +16,8 @@ popupLong: 2.1692300
 type: members
 ---
 
+{{< persona_links >}}
 
-## Who am I ?
-
-Mehdi is a natural products chemist working at the University of Paris-Saclay in France.
-
-## Collaboration statement
+----
 
 {{< map >}}

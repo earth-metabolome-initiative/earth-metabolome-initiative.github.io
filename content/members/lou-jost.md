@@ -16,6 +16,8 @@ popupLong: -78.42333
 type: members
 ---
 
+{{< persona_links >}}
+
 ## Who am I ?
 
 I am a mathematical ecologist and population geneticist. I also do orchid taxonomy and help run the EcoMinga Foundation to protect cloud forests in Ecuador. My website (with my email address) is at www.loujost.com. The EcoMinga website is at www.ecominga.net

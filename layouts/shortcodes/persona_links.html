@@ -1,0 +1,11 @@
+<ul class="list-disc list-inside space-y-1">
+  {{ with .Page.Params.scholia }}
+    <li>My Scholia profile: <a href="{{ . }}" target="_blank" rel="noopener">Scholia</a></li>
+  {{ end }}
+  {{ with .Page.Params.wikidata }}
+    <li>My Wikidata profile: <a href="{{ . }}" target="_blank" rel="noopener">Wikidata</a></li>
+  {{ end }}
+  {{ with .Page.Params.orcid }}
+    <li>My ORCID profile: <a href="{{ . }}" target="_blank" rel="noopener">ORCID</a></li>
+  {{ end }}
+</ul>
