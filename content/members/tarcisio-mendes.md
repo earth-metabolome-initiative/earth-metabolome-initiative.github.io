@@ -1,18 +1,18 @@
 ---
-title: Tarcisio Mendes
+title: Tarcisio Mendes de Farias
 firstname: Tarcisio
-lastname: Mendes
-institution: 
+lastname: Mendes de Farias
+institution: SIB Swiss Institute of Bioinformatics – Vital‑IT Knowledge Representation Unit, Lausanne, Switzerland
 email: tarcisio.mendes@sib.swiss
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-3175-5372
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/tarcisio-mendes.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 1
-popupLong: 1
+popupLat: 46.5197
+popupLong: 6.6323
 type: members
 ---
 

@@ -11,4 +11,4 @@ This page provides an overview of all members of the Earth Metabolome Initiative
 
 ---
 
-<!-- {{< mapcluster list=.Pages >}} -->
+{{< mapcluster list=.Pages >}}

@@ -1,18 +1,18 @@
 ---
-title: Sebastian Boecker
+title: Sebastian Böcker
 firstname: Sebastian
-lastname: Boecker
-institution: 
+lastname: Böcker
+institution: Friedrich Schiller University Jena – Chair for Bioinformatics, Faculty of Mathematics & Computer Science
 email: sebastian.boecker@uni-jena.de
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-9304-8091
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/sebastian-boecker.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 1
-popupLong: 1
+popupLat: 50.9270
+popupLong: 11.5898
 type: members
 ---
 

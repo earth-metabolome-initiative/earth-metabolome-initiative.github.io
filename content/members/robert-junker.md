@@ -1,18 +1,18 @@
 ---
-title: Robert Junker
-firstname: Robert
+title: Robert R. Junker
+firstname: Robert R.
 lastname: Junker
-institution: 
+institution: Philipps‑University Marburg – Evolutionary Ecology of Plants group, Department of Biology
 email: robert.junker@uni-marburg.de
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-7919-9678
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/robert-junker.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 1
-popupLong: 1
+popupLat: 50.8103
+popupLong: 8.7618
 type: members
 ---
 
