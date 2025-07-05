@@ -1,23 +1,21 @@
 ---
-title: Ming Wang
-firstname: Ming
+title: Mingxun Wang
+firstname: Mingxun
 lastname: Wang
-institution: 
+institution: University of California, Riverside – Department of Computer Science and Engineering
 email: mingxun.wang@cs.ucr.edu
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0001-7647-6097
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/ming-wang.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 33.9739
+popupLong: -117.3281
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

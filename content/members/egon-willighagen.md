@@ -2,22 +2,20 @@
 title: Egon Willighagen
 firstname: Egon
 lastname: Willighagen
-institution: 
+institution: Maastricht University – Department of Bioinformatics (BiGCaT, NUTRIM School), Netherlands
 email: egon.willighagen@maastrichtuniversity.nl
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0001-7542-0286
+wikidata: https://www.wikidata.org/wiki/Q20895241
+scholia: https://scholia.toolforge.org/author/Q20895241
 thumbnail:
   url: /img/members/egon-willighagen.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 50.8514
+popupLong: 5.6910
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

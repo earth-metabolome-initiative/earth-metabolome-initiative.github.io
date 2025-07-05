@@ -2,22 +2,20 @@
 title: Daniel Wegmann
 firstname: Daniel
 lastname: Wegmann
-institution: 
+institution: University of Fribourg – Department of Biology & Swiss Institute of Bioinformatics
 email: daniel.wegmann@unifr.ch
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0003-2866-6739
+wikidata: https://www.wikidata.org/wiki/Q79209641
+scholia: https://scholia.toolforge.org/author/Q79209641
 thumbnail:
   url: /img/members/daniel-wegmann.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 46.8029
+popupLong: 7.1619
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

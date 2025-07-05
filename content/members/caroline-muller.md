@@ -1,18 +1,18 @@
 ---
-title: Caroline Muller
+title: Caroline Müller
 firstname: Caroline
-lastname: Muller
-institution: 
+lastname: Müller
+institution: Bielefeld University – Department of Chemical Ecology
 email: caroline.mueller@uni-bielefeld.de
-orcid: 
+orcid: https://orcid.org/0000-0002-8447-534X
 wikidata: 
 scholia: 
 thumbnail:
   url: /img/members/caroline-muller.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 51.9620
+popupLong: 8.5330
 type: members
 ---
 

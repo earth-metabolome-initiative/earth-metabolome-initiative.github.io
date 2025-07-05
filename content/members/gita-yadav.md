@@ -1,23 +1,21 @@
 ---
-title: Gita Yadav
+title: Gitanjali Yadav
 firstname: Gita
 lastname: Yadav
-institution: 
+institution: National Institute of Plant Genome Research (NIPGR), New Delhi, India
 email: gy@nipgr.ac.in
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000‑0001‑6591‑9964
+wikidata: https://www.wikidata.org/wiki/Q74425076
+scholia: https://scholia.toolforge.org/author/Q74425076
 thumbnail:
   url: /img/members/gita-yadav.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 28.6270
+popupLong: 77.1550
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

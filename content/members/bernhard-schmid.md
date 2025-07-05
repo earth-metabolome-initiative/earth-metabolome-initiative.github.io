@@ -2,22 +2,20 @@
 title: Bernhard Schmid
 firstname: Bernhard
 lastname: Schmid
-institution: 
+institution: University of Zurich, Institute of Evolutionary Biology & Environmental Studies
 email: bernhard.schmid@ieu.uzh.ch
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-8430-3214
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/bernhard-schmid.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 47.376887
+popupLong: 8.541694
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

@@ -1,23 +1,21 @@
 ---
-title: Jean-marc Nuzillard
-firstname: Jean-marc
+title: Jean‑Marc Nuzillard
+firstname: Jean‑Marc
 lastname: Nuzillard
-institution: 
-email: jm.nuzillard@univ-reims.fr
-orcid: 
-wikidata: 
-scholia: 
+institution: Université de Reims Champagne-Ardenne & CNRS (ICMR UMR 7312)
+email: jm.nuzillard@univ‑reims.fr
+orcid: https://orcid.org/0000-0002-5120-2556
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/jean-marc-nuzillard.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 49.2583
+popupLong: 4.0317
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

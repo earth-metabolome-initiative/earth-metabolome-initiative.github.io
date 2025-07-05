@@ -1,18 +1,18 @@
 ---
-title: Justin Vanderhooft
+title: Justin van der Hooft
 firstname: Justin
-lastname: Vanderhooft
-institution: 
+lastname: van der Hooft
+institution: Wageningen University & Research – Bioinformatics Group, Plant Sciences
 email: justin.vanderhooft@wur.nl
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-9340-5511
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/justin-vanderhooft.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 51.9706
+popupLong: 5.6653
 type: members
 ---
 

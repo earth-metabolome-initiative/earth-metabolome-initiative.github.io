@@ -1,23 +1,21 @@
 ---
-title: Jean-luc Wolfender
-firstname: Jean-luc
+title: Jean‑Luc Wolfender
+firstname: Jean‑Luc
 lastname: Wolfender
-institution: 
-email: jean-luc.wolfender@unige.ch
-orcid: 
-wikidata: 
-scholia: 
+institution: University of Geneva – School of Pharmaceutical Sciences, Phytochemistry & Bioactive Natural Product Research Unit
+email: jean‑luc.wolfender@unige.ch
+orcid: https://orcid.org/0000-0002-0125-952X
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/jean-luc-wolfender.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 46.2044
+popupLong: 6.1432
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

@@ -2,17 +2,17 @@
 title: Marnix Medema
 firstname: Marnix
 lastname: Medema
-institution: 
+institution: Wageningen University & Research – Bioinformatics Group, Netherlands
 email: marnix.medema@wur.nl
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-2191-2821
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/marnix-medema.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 51.9710
+popupLong: 5.6660
 type: members
 ---
 

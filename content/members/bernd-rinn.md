@@ -2,7 +2,7 @@
 title: Bernd Rinn
 firstname: Bernd
 lastname: Rinn
-institution: 
+institution: ETH Zürich – Scientific IT Services (SIB / SIS), Head of Scientific IT Services
 email: test@example.org
 orcid: 
 wikidata: 
@@ -11,13 +11,11 @@ thumbnail:
   url: /img/members/bernd-rinn.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 47.3768866
+popupLong: 8.541694
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

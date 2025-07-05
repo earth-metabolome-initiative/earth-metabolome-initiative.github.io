@@ -1,23 +1,21 @@
 ---
-title: Meredith Schuman
+title: Meredith C. Schuman
 firstname: Meredith
 lastname: Schuman
-institution: 
-
-orcid: 
-wikidata: 
-scholia: 
+institution: University of Zurich – Departments of Geography & Chemistry, Ecology Platform, Plant–Herbivore–Microbe Interactions
+email: meredithchristine.schuman@uzh.ch
+orcid: https://orcid.org/0000-0003-3159-3534
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/meredith-schuman.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 47.3765
+popupLong: 8.5410
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

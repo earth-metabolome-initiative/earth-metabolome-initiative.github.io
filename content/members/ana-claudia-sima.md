@@ -1,23 +1,21 @@
 ---
-title: Ana-claudia Sima
-firstname: Ana-claudia
+title: Ana‑Claudia Sima
+firstname: Ana‑claudia
 lastname: Sima
-institution: 
+institution: SIB Swiss Institute of Bioinformatics, Lausanne (Knowledge Representation Unit)
 email: test@example.org
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0003-3213-4495
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/ana-claudia-sima.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 46.523100
+popupLong: 6.583850
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

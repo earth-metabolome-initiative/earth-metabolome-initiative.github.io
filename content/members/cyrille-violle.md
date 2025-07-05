@@ -2,22 +2,20 @@
 title: Cyrille Violle
 firstname: Cyrille
 lastname: Violle
-institution: 
+institution: Centre d’Écologie Fonctionnelle et Évolutive (CEFE), Université de Montpellier, CNRS
 email: cyrille.violle@cefe.cnrs.fr
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-2471-9226
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/cyrille-violle.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 43.6380
+popupLong: 3.8650
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

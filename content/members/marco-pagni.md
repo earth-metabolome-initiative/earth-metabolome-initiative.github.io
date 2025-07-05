@@ -2,22 +2,20 @@
 title: Marco Pagni
 firstname: Marco
 lastname: Pagni
-institution: 
-email: Marco.Pagni@sib.swiss
-orcid: 
-wikidata: 
-scholia: 
+institution: SIB Swiss Institute of Bioinformatics – Vital‑IT Group, Lausanne, Switzerland
+email: marco.pagni@sib.swiss
+orcid: https://orcid.org/0000-0001-9292-9463
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/marco-pagni.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 46.5197
+popupLong: 6.6323
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

@@ -1,23 +1,21 @@
 ---
-title: Maria-jose Endara
-firstname: Maria-jose
+title: Maria‑Jose Endara
+firstname: Maria‑José
 lastname: Endara
-institution: 
-email: mjendarab@gmail.com
-orcid: 
-wikidata: 
-scholia: 
+institution: Universidad Tecnológica Indoamérica & Grupo BIOMAS, Quito, Ecuador
+email: majo.endara@utah.edu
+orcid: https://orcid.org/0000-0002-8805-1456
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/maria-jose-endara.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: -0.1807
+popupLong: -78.4678
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

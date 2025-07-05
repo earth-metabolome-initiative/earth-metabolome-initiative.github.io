@@ -1,18 +1,18 @@
 ---
-title: Jorn Piel
-firstname: Jorn
+title: Jörn Piel
+firstname: Jörn
 lastname: Piel
-institution: 
+institution: ETH Zurich – Department of Biology, Institute of Microbiology (Lab for Microbial Interactions)
 email: jpiel@micro.biol.ethz.ch
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-2282-8154
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/jorn-piel.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 47.3769
+popupLong: 8.5417
 type: members
 ---
 

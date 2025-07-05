@@ -1,23 +1,21 @@
 ---
-title: Josep Penuelas
+title: Josep Peñuelas
 firstname: Josep
-lastname: Penuelas
-institution: 
-email: josep.penuelas@uab.cat
-orcid: 
-wikidata: 
-scholia: 
+lastname: Peñuelas
+institution: CREAF–CSIC / Universitat Autònoma de Barcelona, Global Ecology Unit
+email: josep.penuelas@creaf.cat
+orcid: https://orcid.org/0000-0002-7215-0150
+wikidata: https://www.wikidata.org/wiki/Q6280515
+scholia: https://scholia.toolforge.org/author/Q6280515
 thumbnail:
   url: /img/members/josep-penuelas.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 41.4899
+popupLong: 2.0870
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

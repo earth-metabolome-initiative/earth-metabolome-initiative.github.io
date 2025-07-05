@@ -11,13 +11,11 @@ thumbnail:
   url: /img/members/heloise-coen.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 1
+popupLong: 1
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

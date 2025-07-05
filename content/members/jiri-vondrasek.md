@@ -1,23 +1,21 @@
 ---
-title: Jiri Vondrasek
-firstname: Jiri
-lastname: Vondrasek
-institution: 
+title: Jiří Vondrášek
+firstname: Jirǐ
+lastname: Vondrašek
+institution: Czech Academy of Sciences – Institute of Organic Chemistry and Biochemistry, Head of Bioinformatics Group
 email: jiri.vondrasek@uochb.cas.cz
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-6066-973X
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/jiri-vondrasek.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 50.0755
+popupLong: 14.4378
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

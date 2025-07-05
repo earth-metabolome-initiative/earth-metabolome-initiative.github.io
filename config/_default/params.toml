@@ -108,20 +108,20 @@
         style = "border-0 card-zoom"
         homepage = 3
         separator = true
-    #[sections.members]
-    #    title = "Members"
-    #    sort = "date"
-    #    reverse = false
-    #    nested = true
-    #    cols = 3
-    #    color = ""
-    #    padding = "0"
-    #    header = "full"
-    #    footer = "none"
-    #    orientation = "stacked"
-    #    style = "border-0 card-zoom"
-    #    homepage = 3
-    #    separator = true
+    [sections.members]
+        title = "Members"
+        sort = "date"
+        reverse = false
+        nested = true
+        cols = 4
+        color = ""
+        padding = "0"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom card-body-margin"
+        homepage = 5
+        separator = false
 
 # toml-docs-end sections
 

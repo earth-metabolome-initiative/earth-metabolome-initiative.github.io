@@ -2,22 +2,20 @@
 title: Marc Litaudon
 firstname: Marc
 lastname: Litaudon
-institution: 
+institution: French National Centre for Scientific Research (CNRS) – Institut de Chimie des Substances Naturelles (ICSN), Paris-Saclay, France
 email: marc.litaudon@cnrs.fr
-orcid: 
-wikidata: 
-scholia: 
+orcid:
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/marc-litaudon.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 48.7132
+popupLong: 2.1655
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

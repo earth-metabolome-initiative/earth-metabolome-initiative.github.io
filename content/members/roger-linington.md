@@ -11,8 +11,8 @@ thumbnail:
   url: /img/members/roger-linington.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 1
+popupLong: 1
 type: members
 ---
 

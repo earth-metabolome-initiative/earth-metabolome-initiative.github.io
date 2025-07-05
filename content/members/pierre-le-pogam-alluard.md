@@ -1,23 +1,21 @@
 ---
-title: Pierre Le-pogam-alluard
+title: Pierre Le‑Pogam‑Alluard
 firstname: Pierre
-lastname: Le-pogam-alluard
-institution: 
+lastname: Le‑Pogam‑Alluard
+institution: Université Paris‑Saclay – UMR CNRS 8076 BioCIS, Orsay, France
 email: pierre.le-pogam-alluard@universite-paris-saclay.fr
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-3351-4708
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/pierre-le-pogam-alluard.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 48.7169
+popupLong: 2.1690
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}

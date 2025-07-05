@@ -2,17 +2,17 @@
 title: Richard Bardgett
 firstname: Richard
 lastname: Bardgett
-institution: 
+institution: Lancaster Environment Centre, Lancaster University (formerly University of Manchester until Apr 2025)
 email: richard.bardgett@manchester.ac.uk
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0002-5131-0127
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/richard-bardgett.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 54.0042
+popupLong: -2.8036
 type: members
 ---
 

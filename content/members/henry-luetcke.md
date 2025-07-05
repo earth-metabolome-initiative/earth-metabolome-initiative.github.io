@@ -2,22 +2,20 @@
 title: Henry Luetcke
 firstname: Henry
 lastname: Luetcke
-institution: 
-email: test@example.org
-orcid: 
-wikidata: 
-scholia: 
+institution: ETH Zurich – IT Specialist / IT Architect
+email: henry.luetcke@ethz.ch
+orcid: https://orcid.org/0000-0001-7225-4374
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/henry-luetcke.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 
-popupLong: 
+popupLat: 47.3769
+popupLong: 8.5417
 type: members
 ---
 
-## Who am I ?
-
-## Collaboration statement
+{{< persona_links >}}
 
 {{< map >}}
