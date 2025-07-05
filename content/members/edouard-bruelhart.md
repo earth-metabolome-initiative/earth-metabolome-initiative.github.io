@@ -11,8 +11,8 @@ thumbnail:
   url: /img/members/edouard-bruelhart.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 46.8029
-popupLong: 7.1619
+popupLat: 46.79342867764828
+popupLong: 7.155442693886024
 type: members
 ---
 

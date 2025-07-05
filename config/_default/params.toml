@@ -112,8 +112,8 @@
         title = "Members"
         sort = "date"
         reverse = false
-        nested = true
-        cols = 4
+        nested = false
+        cols = 3
         color = ""
         padding = "0"
         header = "full"

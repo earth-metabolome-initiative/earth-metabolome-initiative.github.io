@@ -1,14 +1,14 @@
 ---
-title: Marco Visani
-firstname: Marco
-lastname: Visani
+title: Luca Cappelletti
+firstname: Luca
+lastname: Cappelletti
 institution: University of Fribourg – Department of Biology COMMONS Lab
-email: marco.visani@unifr.ch
-orcid: https://orcid.org/0000-0002-3211-9423
-wikidata:
-scholia:
+email: luca.cappelletti@unifr.ch
+orcid: https://orcid.org/0000-0002-1269-2038
+wikidata: 
+scholia: 
 thumbnail:
-  url: /img/members/marco-visani.jpeg
+  url: /img/members/luca-cappelletti.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
 popupLat: 46.79342867764828
