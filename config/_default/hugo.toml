@@ -1,4 +1,4 @@
-title = "Hinode"
+title = "EMI"
 copyright = "CC0"
 enableGitInfo = true
 
@@ -131,6 +131,14 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
   [[module.mounts]]
     source = "assets/js/modules/leaflet/leaflet-mapcluster.js"
     target = "static/leaflet-mapcluster.js"
+  [[module.mounts]]
+    source = "dist"
+    target = "assets/scss"
+    includeFiles = "leaflet.scss"
+  [[module.mounts]]
+    source = "dist/images"
+    target = "static/css/images"
+    includeFiles = "*.png"
   [[module.imports]]
     path = "github.com/oolonek/mod-leaflet"
   [[module.imports]]

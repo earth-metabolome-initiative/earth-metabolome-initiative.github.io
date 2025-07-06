@@ -6,17 +6,22 @@
 [[main]]
   name = "Posts"
   pageRef = "/posts"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Network"
   pageRef = "/members"
-  weight = 30
+  weight = 20
 
 [[main]]
-  name = "What are we working on ?"
+  name = "What are we working on?"
   pageRef = "/wip"
   weight = 40
+
+[[main]]
+  name = "Join us!"
+  pageRef = "/join"
+  weight = 50
 
 [[social]]
   name = "LinkedIn"
