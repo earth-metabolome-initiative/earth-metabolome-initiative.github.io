@@ -29,7 +29,7 @@
     checkVersion = false
 
 [home]
-    # sections = ["posts"]
+    sections = ["members"]
     fullCover = true
     centerHeadline = false
     style = "gradient-featured"
@@ -94,6 +94,20 @@
 
 # toml-docs-start sections
 [sections]
+    [sections.members]
+        title = "Members"
+        sort = "date"
+        reverse = false
+        nested = false
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "full"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom card-body-margin"
+        homepage = 100
+        separator = false
     [sections.posts]
         title = "Posts"
         sort = "date"
@@ -108,20 +122,6 @@
         style = "border-0 card-zoom"
         homepage = 3
         separator = true
-    [sections.members]
-        title = "Members"
-        sort = "date"
-        reverse = false
-        nested = false
-        cols = 3
-        color = ""
-        padding = "0"
-        header = "full"
-        footer = "none"
-        orientation = "stacked"
-        style = "border-0 card-zoom card-body-margin"
-        homepage = 5
-        separator = false
 
 # toml-docs-end sections
 

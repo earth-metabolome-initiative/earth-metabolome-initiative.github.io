@@ -6,12 +6,12 @@
 [[main]]
   name = "Posts"
   pageRef = "/posts"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Network"
   pageRef = "/members"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "What are we working on?"
