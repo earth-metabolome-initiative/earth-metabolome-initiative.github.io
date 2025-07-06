@@ -11,8 +11,8 @@ thumbnail:
   url: /img/members/pierre-marie-allard.jpeg
 modules: ["leaflet"]
 popup: "Here I am !"
-popupLat: 46.681674
-popupLong: 7.11726
+popupLat: 46.79342867764828
+popupLong: 7.155442693886024
 type: members
 ---
 

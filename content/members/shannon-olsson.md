@@ -1,18 +1,18 @@
 ---
-title: Shannon Olsson
+title: Shannon B. Olsson
 firstname: Shannon
 lastname: Olsson
-institution: 
+institution: Tata Institute of Fundamental Research – National Centre for Biological Sciences (NCBS), Bangalore, India
 email: shannon@nice.ncbs.res.in
-orcid: 
-wikidata: 
-scholia: 
+orcid: https://orcid.org/0000-0003-4126-7353
+wikidata:
+scholia:
 thumbnail:
   url: /img/members/shannon-olsson.jpeg
 modules: ["leaflet"]
 popup: "Here I am"
-popupLat: 1
-popupLong: 1
+popupLat: 12.9716
+popupLong: 77.5946
 type: members
 ---
 
