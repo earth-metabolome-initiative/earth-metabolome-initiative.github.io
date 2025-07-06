@@ -14,9 +14,14 @@
   weight = 30
 
 [[main]]
-  name = "What are we working on ?"
+  name = "What are we working on?"
   pageRef = "/wip"
   weight = 40
+
+[[main]]
+  name = "Join us!"
+  pageRef = "/join"
+  weight = 50
 
 [[social]]
   name = "LinkedIn"
