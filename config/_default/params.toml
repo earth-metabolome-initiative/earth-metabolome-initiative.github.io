@@ -98,16 +98,16 @@
         title = "Members"
         sort = "date"
         reverse = false
-        nested = false
+        nested = true
         cols = 3
         color = ""
         padding = "0"
-        header = "full"
+        header = "none"
         footer = "none"
         orientation = "stacked"
         style = "border-0 card-zoom card-body-margin"
         homepage = 100
-        separator = false
+        separator = true
     [sections.posts]
         title = "Posts"
         sort = "date"

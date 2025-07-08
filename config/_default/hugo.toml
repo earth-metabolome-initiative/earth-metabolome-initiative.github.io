@@ -146,8 +146,8 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
 
 [params.modules.hinode.csp]
   style-src = ["'self'", "https://fonts.googleapis.com"]
-  script-src = ["'self'", "https://tile.openstreetmap.org"]
-  connect-src = ["'self'", "https://tile.openstreetmap.org"]
+  script-src = ["'self'", "https://tile.openstreetmap.org", "https://www.paypal.com"]
+  connect-src = ["'self'", "https://tile.openstreetmap.org", "https://www.paypal.com"]
   img-src = ["'self'", "data:"]
 
 [segments]
