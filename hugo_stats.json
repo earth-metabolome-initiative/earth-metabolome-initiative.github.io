@@ -3,6 +3,7 @@
     "tags": [
       "a",
       "body",
+      "br",
       "button",
       "code",
       "div",
@@ -261,6 +262,8 @@
       "w-100"
     ],
     "ids": [
+      "-help-us-reveal-and-preserve-earths-hidden-chemistry",
+      "-your-support-matters",
       "collaboration-statement",
       "fa-face-frown",
       "fab-facebook",
@@ -282,6 +285,8 @@
       "fas-share-nodes",
       "fas-sort",
       "fas-sun",
+      "help-us-reveal-and-preserve-earths-hidden-chemistry",
+      "join-us",
       "leaflet-map-0",
       "leaflet-map-1",
       "mapcluster",
@@ -291,6 +296,7 @@
       "navbar-mode",
       "navbar-mode-checkbox",
       "posts",
+      "support-the-emi",
       "toast-container",
       "toast-copied-code-message",
       "toast-message-email-4",

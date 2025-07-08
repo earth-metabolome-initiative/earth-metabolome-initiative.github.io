@@ -23,6 +23,11 @@
   pageRef = "/join"
   weight = 50
 
+[[main]]
+  name = "Support the EMI"
+  pageRef = "/support"
+  weight = 60
+
 [[social]]
   name = "LinkedIn"
   pre = "fab linkedin"
