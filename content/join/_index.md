@@ -9,10 +9,19 @@ You are interested in joining the Earth Metabolome Initiative? Great! We are alw
 
 In order to join you have several options:
 
-- Drop us an email at contact@earthmetabolome.org
+
+## Via github (prefered)
+
+- [Create a GitHub account](https://github.com/signup) if you don't have one already.
 - Open a templated issue, using the `Register new member` option on our [GitHub repository](https://github.com/earth-metabolome-initiative/earth-metabolome-initiative.github.io/issues/new/choose).
 
-In both cases, please provide us with the following information:
+## Via email
+
+- Drop us an email at contact@earthmetabolome.org
+
+## In both cases
+
+Please provide us with the following information:
 
 - Your name
 - Your affiliation (institution, company, etc.)
