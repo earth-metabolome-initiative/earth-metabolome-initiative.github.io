@@ -9,7 +9,6 @@ You are interested in joining the Earth Metabolome Initiative? Great! We are alw
 
 In order to join you have several options:
 
-
 ## Via github (prefered)
 
 - [Create a GitHub account](https://github.com/signup) if you don't have one already.
