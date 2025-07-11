@@ -262,7 +262,6 @@
       "w-100"
     ],
     "ids": [
-      "-help-us-reveal-and-preserve-earths-hidden-chemistry",
       "-your-support-matters",
       "collaboration-statement",
       "fa-face-frown",
@@ -286,6 +285,7 @@
       "fas-sort",
       "fas-sun",
       "help-us-reveal-and-preserve-earths-hidden-chemistry",
+      "in-both-cases",
       "join-us",
       "leaflet-map-0",
       "leaflet-map-1",
@@ -301,6 +301,8 @@
       "toast-copied-code-message",
       "toast-message-email-4",
       "toc-collapse",
+      "via-email",
+      "via-github-prefered",
       "what-are-we-working-on",
       "who-am-i-"
     ]
