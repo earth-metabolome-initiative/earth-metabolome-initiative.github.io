@@ -2,7 +2,7 @@
 title: Donat Agosti
 firstname: Donat
 lastname: Agosti
-institution: Naturhistorisches Museum, Berne, Switzerland
+institution: Plazi, Switzerland
 email: agosti@plazi.org
 orcid: https://orcid.org/0000-0001-9286-1200
 wikidata: https://www.wikidata.org/wiki/Q20650434
