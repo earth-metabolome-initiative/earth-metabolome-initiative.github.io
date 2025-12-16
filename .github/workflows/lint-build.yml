@@ -41,9 +41,11 @@ jobs:
 
     strategy:
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
+        # Only test the production environment we deploy (Linux / Node 22).
+        # Reintroduce macOS/Windows or other Node versions later if needed.
+        os: [ubuntu-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-        node-version: [20.x, 22.x]
+        node-version: [22.x]
 
     runs-on: ${{ matrix.os }}
 
