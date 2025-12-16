@@ -1,5 +1,5 @@
 ---
-title: Ph.D.
+title: Tito Damiani
 firstname: Tito
 lastname: Damiani
 institution: IOCB Prague, Czech Republic
