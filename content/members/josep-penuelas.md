@@ -6,7 +6,6 @@ institution: CREAF–CSIC / Universitat Autònoma de Barcelona, Global Ecolo
 email: josep.penuelas@creaf.cat
 orcid: https://orcid.org/0000-0002-7215-0150
 wikidata: https://www.wikidata.org/wiki/Q6280515
-scholia: https://scholia.toolforge.org/author/Q6280515
 thumbnail:
   url: /img/members/josep-penuelas.jpeg
 modules: ["leaflet"]

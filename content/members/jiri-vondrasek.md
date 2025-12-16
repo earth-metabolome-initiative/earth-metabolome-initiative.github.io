@@ -6,7 +6,6 @@ institution: Czech Academy of Sciences – Institute of Organic Chemistry and Bi
 email: jiri.vondrasek@uochb.cas.cz
 orcid: https://orcid.org/0000-0002-6066-973X
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/jiri-vondrasek.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: University of Zurich – Department of Systematic & Evolutionary Bo
 email: rodrigo.camaraleret@ieu.uzh.ch  
 orcid: https://orcid.org/0000-0001-7705-0602  
 wikidata:  
-scholia:  
 thumbnail:
   url: /img/members/rodrigo-camara-leret.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: University of Alberta – Departments of Biological Sciences & Comp
 email: dwishart@ualberta.ca
 orcid: https://orcid.org/0000-0002-3207-2434
 wikidata: https://www.wikidata.org/wiki/Q27887604
-scholia: https://scholia.toolforge.org/author/Q27887604
 thumbnail:
   url: /img/members/david-wishart.jpeg
 modules: ["leaflet"]

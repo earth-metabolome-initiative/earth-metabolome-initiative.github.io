@@ -6,7 +6,6 @@ institution: São Paulo State University (UNESP) – Institute of Chemistry, Ara
 email: bolzaniv@iq.unesp.br
 orcid: https://orcid.org/0000-0003-0615-8776
 wikidata: https://www.wikidata.org/wiki/Q10389048
-scholia: https://scholia.toolforge.org/author/Q10389048
 thumbnail:
   url: /img/members/vanderlan-bolzani.jpeg
 modules: ["leaflet"]

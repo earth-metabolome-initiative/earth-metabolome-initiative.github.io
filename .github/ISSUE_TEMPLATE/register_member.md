@@ -9,7 +9,7 @@ assignees: "@earth-metabolome-initiative/core"
 Please update the template below and click "Create" to let us know you'd like to become a member of the Earth Metabolome Initiative. Please allow for some time for @earth-metabolome-initiative/core to review your request.
 
 
-This is a template for registering a new member of the Earth Metabolome Initiative. Please fill in the details below and remove this line before submitting.
+This is a template for registering a new member of the Earth Metabolome Initiative. Please fill in the details below and remove this line before submitting. For Wikidata just provide the QID (e.g., `Q20650434`) and the site will build both Wikidata and Scholia links automatically.
 
 ```
 ---
@@ -18,8 +18,7 @@ firstname: Donat
 lastname: Agosti
 institution: Plazi, Switzerland
 orcid: https://orcid.org/0000-0001-9286-1200
-wikidata: https://www.wikidata.org/wiki/Q20650434
-scholia: https://scholia.toolforge.org/author/Q20650434
+wikidata: Q20650434
 website: https://plazi.org
 thumbnail:
   url: /img/members/donat-agosti.jpeg

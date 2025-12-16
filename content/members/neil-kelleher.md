@@ -6,7 +6,6 @@ institution: Northwestern University – Department of Chemistry, Molecular Bios
 email: n‑kelleher@northwestern.edu
 orcid: https://orcid.org/0000-0002-8815-3372
 wikidata: https://www.wikidata.org/wiki/Q6988803
-scholia: https://scholia.toolforge.org/author/Q6988803
 thumbnail:
   url: /img/members/neil-kelleher.jpeg
 modules: ["leaflet"]

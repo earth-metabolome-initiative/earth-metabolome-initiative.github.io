@@ -6,7 +6,6 @@ institution: French National Centre for Scientific Research (CNRS) – Institut 
 email: marc.litaudon@cnrs.fr
 orcid:
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/marc-litaudon.jpeg
 modules: ["leaflet"]

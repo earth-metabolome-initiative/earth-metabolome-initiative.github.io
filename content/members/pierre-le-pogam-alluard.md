@@ -6,7 +6,6 @@ institution: Université Paris‑Saclay – UMR CNRS 8076 BioCIS, Orsay, Franc
 email: pierre.le-pogam-alluard@universite-paris-saclay.fr
 orcid: https://orcid.org/0000-0002-3351-4708
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/pierre-le-pogam-alluard.jpeg
 modules: ["leaflet"]

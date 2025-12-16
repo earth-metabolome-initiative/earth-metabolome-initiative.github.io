@@ -6,7 +6,6 @@ institution: Weizmann Institute of Science, Department of Plant & Environmental 
 email: asaph.aharoni@weizmann.ac.il
 orcid: https://orcid.org/0000-0002-6077-1590
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/asaph-aharoni.jpeg
 modules: ["leaflet"]

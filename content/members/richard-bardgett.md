@@ -6,7 +6,6 @@ institution: Lancaster Environment Centre, Lancaster University (formerly Univer
 email: richard.bardgett@manchester.ac.uk
 orcid: https://orcid.org/0000-0002-5131-0127
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/richard-bardgett.jpeg
 modules: ["leaflet"]

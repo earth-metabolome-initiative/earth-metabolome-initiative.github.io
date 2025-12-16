@@ -6,7 +6,6 @@ institution: University of Neuchâtel – Computational Biology & Biodiversity
 email: 
 orcid: https://orcid.org/0000-0001-9292-9463
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/disha-tandon.jpeg
 modules: ["leaflet"]

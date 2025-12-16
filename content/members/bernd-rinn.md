@@ -6,7 +6,6 @@ institution: ETH Zürich – Scientific IT Services (SIB / SIS), Head of Scienti
 email: test@example.org
 orcid: 
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/bernd-rinn.jpeg
 modules: ["leaflet"]

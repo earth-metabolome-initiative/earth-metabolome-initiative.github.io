@@ -6,7 +6,6 @@ institution: COMMONS Lab, Department of Biology, University of Fribourg, Switzer
 email: pierre-marie.allard@unifr.ch
 orcid: https://orcid.org/0000-0003-3389-2191
 wikidata: https://www.wikidata.org/wiki/Q56451301
-scholia: https://scholia.toolforge.org/author/Q56451301
 thumbnail:
   url: /img/members/pierre-marie-allard.jpeg
 modules: ["leaflet"]

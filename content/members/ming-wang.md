@@ -6,7 +6,6 @@ institution: University of California, Riverside – Department of Computer Scie
 email: mingxun.wang@cs.ucr.edu
 orcid: https://orcid.org/0000-0001-7647-6097
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/ming-wang.jpeg
 modules: ["leaflet"]

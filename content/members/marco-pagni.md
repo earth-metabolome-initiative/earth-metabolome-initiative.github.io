@@ -6,7 +6,6 @@ institution: SIB Swiss Institute of Bioinformatics – Vital‑IT Group, Lausann
 email: marco.pagni@sib.swiss
 orcid: https://orcid.org/0000-0001-9292-9463
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/marco-pagni.jpeg
 modules: ["leaflet"]

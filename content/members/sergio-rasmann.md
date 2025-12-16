@@ -6,7 +6,6 @@ institution: University of Neuchâtel – Department of Ecology & Evolution, Pla
 email: sergio.rasmann@unine.ch
 orcid: https://orcid.org/0000-0001-8898-4585
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/sergio-rasmann.jpeg
 modules: ["leaflet"]

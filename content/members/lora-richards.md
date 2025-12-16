@@ -6,7 +6,6 @@ institution: University of Nevada, Reno – Department of Biology, Chemical Ecol
 email: lorar@unr.edu  
 orcid: https://orcid.org/0000-0002-8052-4378  
 wikidata:  
-scholia:  
 thumbnail:
   url: /img/members/lora-richards.jpeg
 modules: ["leaflet"]

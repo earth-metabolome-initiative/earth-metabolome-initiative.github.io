@@ -6,7 +6,6 @@ institution: McGill University – Department of Biology, Canada Research Chair 
 email: andrew.gonzalez@mcgill.ca
 orcid: https://orcid.org/0000-0001-6075-8081
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/andrew-gonzalez.jpeg
 modules: ["leaflet"]

@@ -5,7 +5,6 @@ lastname: Xool-Tamayo
 institution: CICESE, Mexico
 orcid: https://orcid.org/0000-0002-5146-6260
 wikidata:
-scholia:
 website: https://sites.google.com/view/metxico/inicio
 thumbnail:
   url: /img/members/jorge-xool-tamayo.jpeg

@@ -6,7 +6,6 @@ institution: Agroscope – Plant Protection Research, Mycology and Biotechnology
 email: katia.gindro@agroscope.admin.ch
 orcid: https://orcid.org/0000-0003-4344-1853
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/katia-gindro.jpeg
 modules: ["leaflet"]

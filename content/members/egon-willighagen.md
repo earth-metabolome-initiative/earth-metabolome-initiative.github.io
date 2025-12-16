@@ -6,7 +6,6 @@ institution: Maastricht University – Department of Bioinformatics (BiGCaT, NUT
 email: egon.willighagen@maastrichtuniversity.nl
 orcid: https://orcid.org/0000-0001-7542-0286
 wikidata: https://www.wikidata.org/wiki/Q20895241
-scholia: https://scholia.toolforge.org/author/Q20895241
 thumbnail:
   url: /img/members/egon-willighagen.jpeg
 modules: ["leaflet"]

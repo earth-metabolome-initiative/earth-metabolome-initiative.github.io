@@ -6,7 +6,6 @@ institution: University of Zurich – Departments of Geography & Chemistry, Ecol
 email: meredithchristine.schuman@uzh.ch
 orcid: https://orcid.org/0000-0003-3159-3534
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/meredith-schuman.jpeg
 modules: ["leaflet"]

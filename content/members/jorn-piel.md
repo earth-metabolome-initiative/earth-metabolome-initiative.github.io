@@ -6,7 +6,6 @@ institution: ETH Zurich – Department of Biology, Institute of Microbiology (La
 email: jpiel@micro.biol.ethz.ch
 orcid: https://orcid.org/0000-0002-2282-8154
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/jorn-piel.jpeg
 modules: ["leaflet"]

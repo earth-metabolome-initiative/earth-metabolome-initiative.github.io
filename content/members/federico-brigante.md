@@ -7,7 +7,6 @@ orcid: https://orcid.org/0000-0002-7553-8302
 website: https://www.uochb.cz/en/directory/1675/federico-ivan-brigante
 email:
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/federico-brigante.jpeg
 popup: "Here I am"

@@ -5,7 +5,6 @@ lastname: Rovelli
 institution: University of Parma, Italy
 orcid: https://orcid.org/0009-0007-5818-8981
 wikidata: https://www.wikidata.org/wiki/Q136766654
-scholia: 
 thumbnail:
   url: /img/members/davide-rovelli.jpeg
 modules: ["leaflet"]

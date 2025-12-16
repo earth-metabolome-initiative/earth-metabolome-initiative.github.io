@@ -6,7 +6,6 @@ institution: Université de Reims Champagne-Ardenne & CNRS (ICMR UMR 7312)
 email: jm.nuzillard@univ‑reims.fr
 orcid: https://orcid.org/0000-0002-5120-2556
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/jean-marc-nuzillard.jpeg
 modules: ["leaflet"]

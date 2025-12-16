@@ -6,7 +6,6 @@ institution: University of Zürich – Department of Systematic & Evolutionary B
 email: tobias.zuest@uzh.ch
 orcid: https://orcid.org/0000-0001-7142-8731
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/tobias-zust.jpeg
 modules: ["leaflet"]

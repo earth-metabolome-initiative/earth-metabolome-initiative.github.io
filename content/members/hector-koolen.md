@@ -6,7 +6,6 @@ institution: Universidade do Estado do Amazonas – Metabolomics & Mass Spectrom
 email: hkoolen@uea.br
 orcid: https://orcid.org/0000-0002-0181-348X
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/hector-koolen.jpeg
 modules: ["leaflet"]

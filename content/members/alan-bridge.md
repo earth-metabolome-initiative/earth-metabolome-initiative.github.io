@@ -6,7 +6,6 @@ institution: SIB Swiss Institute of Bioinformatics
 email: Alan.Bridge@sib.swiss
 orcid: https://orcid.org/0000-0003-2148-9135
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/alan-bridge.jpeg
 modules: ["leaflet"]

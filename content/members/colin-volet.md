@@ -5,7 +5,6 @@ lastname: Volet
 institution: University of Fribourg, Switzerland
 orcid: https://orcid.org/0000-0003-3546-9602
 wikidata:
-scholia:
 website: https://www.unifr.ch/directory/fr/people/390957/75394
 thumbnail:
   url: /img/members/colin-volet.jpeg

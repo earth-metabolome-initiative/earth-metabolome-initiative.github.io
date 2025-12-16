@@ -6,7 +6,6 @@ institution: Institut de Recherche Pierre FABRE (Retired)
 email: brunoxdavid@gmail.com
 orcid: https://orcid.org/0000-0002-6222-9228
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/bruno-david.jpeg
 modules: ["leaflet"]

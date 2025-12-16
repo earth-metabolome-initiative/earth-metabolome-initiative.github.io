@@ -6,7 +6,6 @@ institution: Czech Academy of Sciences – Institute of Organic Chemistry and Bi
 email: jakub.galgonek@uochb.cas.cz
 orcid: https://orcid.org/0000-0002-7038-544X
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/jakub-galgonek.jpeg
 modules: ["leaflet"]

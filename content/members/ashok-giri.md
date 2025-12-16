@@ -6,7 +6,6 @@ institution: CSIR‑National Chemical Laboratory, Biochemical Sciences Division,
 email: ap.giri@ncl.res.in
 orcid: https://orcid.org/0000-0002-5309-259X
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/ashok-giri.jpeg
 modules: ["leaflet"]

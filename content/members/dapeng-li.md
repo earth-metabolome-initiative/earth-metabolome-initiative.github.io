@@ -6,7 +6,6 @@ institution: Hunan University, Institute of Environmental & Engineering Research
 email: dpli@cemps.ac.cn
 orcid: https://orcid.org/0000-0002-1234-5678
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/dapeng-li.jpeg
 modules: ["leaflet"]

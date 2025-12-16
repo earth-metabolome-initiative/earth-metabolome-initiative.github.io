@@ -5,7 +5,6 @@ lastname: Rutz
 institution: ETH Zürich, Switzerland
 orcid: https://orcid.org/0000-0003-0443-9902
 wikidata: https://www.wikidata.org/wiki/Q97455964
-scholia: https://scholia.toolforge.org/author/Q97455964
 website: https://adafede.github.io/
 thumbnail:
   url: https://upload.wikimedia.org/wikipedia/commons/3/37/Adriano_Rutz.jpg

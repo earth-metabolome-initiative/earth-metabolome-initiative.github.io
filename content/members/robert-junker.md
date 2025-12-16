@@ -6,7 +6,6 @@ institution: Philipps‑University Marburg – Evolutionary Ecology of Plants gr
 email: robert.junker@uni-marburg.de
 orcid: https://orcid.org/0000-0002-7919-9678
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/robert-junker.jpeg
 modules: ["leaflet"]

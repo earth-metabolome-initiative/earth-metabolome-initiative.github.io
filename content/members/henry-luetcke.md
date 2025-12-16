@@ -6,7 +6,6 @@ institution: ETH Zurich – IT Specialist / IT Architect
 email: henry.luetcke@ethz.ch
 orcid: https://orcid.org/0000-0001-7225-4374
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/henry-luetcke.jpeg
 modules: ["leaflet"]

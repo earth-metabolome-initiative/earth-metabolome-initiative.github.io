@@ -6,7 +6,6 @@ institution: German Centre for Integrative Biodiversity Research (iDiv) Halle‑
 email: nicole.vandam@idiv.de  
 orcid: https://orcid.org/0000-0003-2622-5446  
 wikidata: https://www.wikidata.org/wiki/Q42305863  
-scholia: https://scholia.toolforge.org/author/Q42305863  
 thumbnail:
   url: /img/members/nicole-van-dam.jpeg
 modules: ["leaflet"]

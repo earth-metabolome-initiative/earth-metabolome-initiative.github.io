@@ -6,7 +6,6 @@ institution: Plazi, Switzerland
 email: agosti@plazi.org
 orcid: https://orcid.org/0000-0001-9286-1200
 wikidata: https://www.wikidata.org/wiki/Q20650434
-scholia: https://scholia.toolforge.org/author/Q20650434
 thumbnail:
   url: /img/members/donat-agosti.jpeg
 modules: ["leaflet"]

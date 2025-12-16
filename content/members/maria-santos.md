@@ -6,7 +6,6 @@ institution: University of Zurich – Department of Geography & Earth System Sci
 email: maria.j.santos@geo.uzh.ch
 orcid: https://orcid.org/0000-0002-6558-7477
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/maria-santos.jpeg
 modules: ["leaflet"]

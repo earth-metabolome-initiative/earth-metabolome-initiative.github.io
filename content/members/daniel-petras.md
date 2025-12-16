@@ -6,7 +6,6 @@ institution: University of California, Riverside – Department of Biochemistry;
 email: functionalmetabolomics@gmail.com
 orcid: https://orcid.org/0000-0002-6561-3022
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/daniel-petras.jpeg
 modules: ["leaflet"]

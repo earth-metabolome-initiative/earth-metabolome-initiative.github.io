@@ -1,10 +1,29 @@
 <ul class="list-disc list-inside space-y-1">
-  {{ with .Page.Params.scholia }}
-    <li>My Scholia profile: <a href="{{ . }}" target="_blank" rel="noopener">Scholia</a></li>
-  {{ end }}
+  {{ $qid := "" }}
   {{ with .Page.Params.wikidata }}
-    <li>My Wikidata profile: <a href="{{ . }}" target="_blank" rel="noopener">Wikidata</a></li>
+    {{ $value := printf "%v" (trim . " ") }}
+    {{ $matches := findRE "Q[0-9]+" $value }}
+    {{ if gt (len $matches) 0 }}
+      {{ $qid = index $matches 0 }}
+    {{ else }}
+      {{ $qid = $value }}
+    {{ end }}
   {{ end }}
+
+  {{ if $qid }}
+    {{ $wikidataURL := printf "https://www.wikidata.org/wiki/%s" $qid }}
+    {{ $scholiaURL := printf "https://scholia.toolforge.org/author/%s" $qid }}
+    <li>My Wikidata profile: <a href="{{ $wikidataURL }}" target="_blank" rel="noopener">Wikidata</a></li>
+    <li>My Scholia profile: <a href="{{ $scholiaURL }}" target="_blank" rel="noopener">Scholia</a></li>
+  {{ else }}
+    {{ with .Page.Params.scholia }}
+      <li>My Scholia profile: <a href="{{ . }}" target="_blank" rel="noopener">Scholia</a></li>
+    {{ end }}
+    {{ with .Page.Params.wikidata }}
+      <li>My Wikidata profile: <a href="{{ . }}" target="_blank" rel="noopener">Wikidata</a></li>
+    {{ end }}
+  {{ end }}
+
   {{ with .Page.Params.orcid }}
     <li>My ORCID profile: <a href="{{ . }}" target="_blank" rel="noopener">ORCID</a></li>
   {{ end }}

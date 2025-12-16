@@ -6,7 +6,6 @@ institution: University of Fribourg – Department of Biology COMMONS Lab
 email: marco.visani@unifr.ch
 orcid: https://orcid.org/0000-0002-3211-9423
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/marco-visani.jpeg
 modules: ["leaflet"]

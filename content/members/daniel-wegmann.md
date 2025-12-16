@@ -6,7 +6,6 @@ institution: University of Fribourg – Department of Biology & Swiss Institute 
 email: daniel.wegmann@unifr.ch
 orcid: https://orcid.org/0000-0003-2866-6739
 wikidata: https://www.wikidata.org/wiki/Q79209641
-scholia: https://scholia.toolforge.org/author/Q79209641
 thumbnail:
   url: /img/members/daniel-wegmann.jpeg
 modules: ["leaflet"]
