@@ -16,12 +16,11 @@ popupLong: 7.155442693886024
 type: members
 ---
 
-Colin is a laboratory technician specialised in field work, mass spectrometry and ms data treatments. 
+Colin is a laboratory technician specialised in field work, mass spectrometry and ms data treatments.
 
 ## Collaboration statement
 
 I am interested in contributing to the Earth Metabolome Initiative by providing my expertise in mass spectrometry and helping to create an open data environment. I hope to contribute improving the field collection work and continue bringing this project to life.
-
 
 {{< persona_links >}}
 
