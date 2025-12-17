@@ -13,6 +13,7 @@ popup: "Here I am"
 popupLat: 52.5127
 popupLong: 13.3992
 type: members
+modules: ["leaflet"]
 ---
 
 Federico Brigante is an italian-argentinian researcher based in Prague

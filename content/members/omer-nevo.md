@@ -8,7 +8,7 @@ wikidata:
 website: http://www.evolutionary-ecology.de/
 thumbnail:
   url: /img/members/omer-nevo.jpeg
-modules: 
+modules: ["leaflet"]
 popup: "Here I am"
 popupLat: 51.31866215659994
 popupLong: 12.39672404898675

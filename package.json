@@ -23,6 +23,7 @@
     "mod:update": "rimraf _vendor && hugo mod get -u ./... && hugo mod get -u && npm run -s mod:vendor && npm run -s mod:tidy",
     "mod:tidy": "hugo mod tidy",
     "mod:vendor": "rimraf _vendor && hugo mod vendor",
+    "member:prepare": "node scripts/prepare-member.js",
     "test": "npm run -s lint",
     "env": "hugo env",
     "precheck": "npm version",

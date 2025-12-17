@@ -13,6 +13,7 @@ popup: "Here I am"
 popupLat: 43.071841
 popupLong: -89.400345
 # type: members
+type: members
 ---
 
 {{< persona_links >}}
