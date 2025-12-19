@@ -6,7 +6,6 @@ institution: Centre d’Écologie Fonctionnelle et Évolutive (CEFE), Universit�
 email: cyrille.violle@cefe.cnrs.fr
 orcid: https://orcid.org/0000-0002-2471-9226
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/cyrille-violle.jpeg
 modules: ["leaflet"]

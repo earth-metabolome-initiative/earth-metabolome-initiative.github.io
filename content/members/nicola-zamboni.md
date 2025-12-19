@@ -6,7 +6,6 @@ institution: ETH Zurich â€“ Institute of Molecular Systems Biology, Swiss Multiâ
 email: zamboni@imsb.biol.ethz.ch
 orcid: https://orcid.org/0000-0003-1271-1021
 wikidata: https://www.wikidata.org/wiki/Q73400060
-scholia: https://scholia.toolforge.org/author/Q73400060
 thumbnail:
   url: /img/members/nicola-zamboni.jpeg
 modules: ["leaflet"]

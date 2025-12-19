@@ -6,7 +6,6 @@ institution: Wageningen University & Research – Bioinformatics Group, Netherla
 email: marnix.medema@wur.nl
 orcid: https://orcid.org/0000-0002-2191-2821
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/marnix-medema.jpeg
 modules: ["leaflet"]

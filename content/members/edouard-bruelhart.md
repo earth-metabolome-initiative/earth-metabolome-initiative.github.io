@@ -6,7 +6,6 @@ institution: University of Fribourg – Department of Biology, COMMONS Lab (MAPP
 email: edouard.bruelhart@unifr.ch
 orcid: 
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/edouard-bruelhart.jpeg
 modules: ["leaflet"]

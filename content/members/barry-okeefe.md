@@ -6,7 +6,6 @@ institution: U.S. National Cancer Institute, Center for Cancer Research, Molecul
 email: okeefeba@mail.nih.gov
 orcid: https://orcid.org/0000-0003-0772-4856
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/barry-okeefe.jpeg
 modules: ["leaflet"]

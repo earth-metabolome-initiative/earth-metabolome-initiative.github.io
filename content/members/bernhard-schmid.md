@@ -6,7 +6,6 @@ institution: University of Zurich, Institute of Evolutionary Biology & Environme
 email: bernhard.schmid@ieu.uzh.ch
 orcid: https://orcid.org/0000-0002-8430-3214
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/bernhard-schmid.jpeg
 modules: ["leaflet"]

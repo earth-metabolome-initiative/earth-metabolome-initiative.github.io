@@ -5,7 +5,6 @@ lastname: Parra
 institution: Centro Nacional de Innovaciones Biotecnológicas (CENIBiot), CeNAT-CONARE, Costa Rica
 orcid: https://orcid.org/0000-0001-7273-0406
 wikidata: 
-scholia: 
 website: https://parralab.netlify.app/
 thumbnail:
   url: /img/members/jonathan-parra.jpeg

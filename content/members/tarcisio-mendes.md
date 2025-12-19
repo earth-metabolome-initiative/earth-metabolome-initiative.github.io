@@ -6,7 +6,6 @@ institution: SIB Swiss Institute of Bioinformatics – Vital‑IT Knowledge Repr
 email: tarcisio.mendes@sib.swiss
 orcid: https://orcid.org/0000-0002-3175-5372
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/tarcisio-mendes.jpeg
 modules: ["leaflet"]

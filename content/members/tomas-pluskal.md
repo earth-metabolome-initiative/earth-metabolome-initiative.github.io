@@ -6,7 +6,6 @@ institution: Institute of Organic Chemistry and Biochemistry (IOCB Prague), Czec
 email: tomas.pluskal@uochb.cas.cz
 orcid: https://orcid.org/0000-0002-6940-3006
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/tomas-pluskal.jpeg
 modules: ["leaflet"]

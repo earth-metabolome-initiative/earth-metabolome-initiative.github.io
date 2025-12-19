@@ -5,7 +5,6 @@ lastname: Damiani
 institution: IOCB Prague, Czech Republic
 orcid: https://orcid.org/0000-0002-4616-900X
 wikidata: https://www.wikidata.org/wiki/Q100685254
-scholia: https://scholia.toolforge.org/author/Q100685254
 website: https://www.uochb.cz/en/directory/1063/tito-damiani 
 thumbnail:
   url: /img/members/tito-damiani.jpeg

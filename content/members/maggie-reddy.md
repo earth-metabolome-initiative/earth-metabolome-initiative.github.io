@@ -6,7 +6,6 @@ institution: University of Cape Town – Marine Biodiversity Lab / Ocean4Biotech
 email: maggiereddy@rug.nl
 orcid: https://orcid.org/0000-0001-8243-9567
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/maggie-reddy.jpeg
 modules: ["leaflet"]

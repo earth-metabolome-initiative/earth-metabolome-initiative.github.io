@@ -6,7 +6,6 @@ institution: University of Neuchâtel – Neuchâtel Platform of Analytical Chem
 email: gaetan.glauser@unine.ch
 orcid: https://orcid.org/0000-0002-0983-8614
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/gaetan-glauser.jpeg
 modules: ["leaflet"]

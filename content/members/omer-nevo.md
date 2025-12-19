@@ -5,7 +5,6 @@ lastname: Nevo
 institution: iDiv, Germany
 orcid: https://orcid.org/0000-0003-3549-4509
 wikidata:
-scholia:
 website: http://www.evolutionary-ecology.de/
 thumbnail:
   url: /img/members/omer-nevo.jpeg

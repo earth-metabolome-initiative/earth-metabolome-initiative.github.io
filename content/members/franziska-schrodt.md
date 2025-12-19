@@ -6,7 +6,6 @@ institution: University of Nottingham – School of Geography, Earth System Scie
 email: Franziska.Schrodt1@nottingham.ac.uk
 orcid: https://orcid.org/0000-0001-9053-8872
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/franziska-schrodt.jpeg
 modules: ["leaflet"]

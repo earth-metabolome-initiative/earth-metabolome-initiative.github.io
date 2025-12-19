@@ -6,7 +6,6 @@ institution: Friedrich Schiller University Jena – Chair for Bioinformatics, Fa
 email: sebastian.boecker@uni-jena.de
 orcid: https://orcid.org/0000-0002-9304-8091
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/sebastian-boecker.jpeg
 modules: ["leaflet"]

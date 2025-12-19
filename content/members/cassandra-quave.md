@@ -6,7 +6,6 @@ institution: Emory University School of Medicine, Department of Dermatology & Ce
 email: cassandra.leah.quave@emory.edu  
 orcid: https://orcid.org/0000-0001-9615-7886  
 wikidata: https://www.wikidata.org/wiki/Q47440620  
-scholia: https://scholia.toolforge.org/author/Q47440620  
 thumbnail:
   url: /img/members/cassandra-quave.jpeg
 modules: ["leaflet"]

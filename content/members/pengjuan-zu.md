@@ -6,7 +6,6 @@ institution: University of Neuchâtel & ETH Zurich – Biocommunication & Ecolog
 email: pengjuan.zu@unine.ch  
 orcid: https://orcid.org/0000-0002-3222-598X  
 wikidata: https://www.wikidata.org/wiki/Q96590329  
-scholia: https://scholia.toolforge.org/author/Q96590329  
 thumbnail:
   url: /img/members/pengjuan-zu.jpeg
 modules: ["leaflet"]

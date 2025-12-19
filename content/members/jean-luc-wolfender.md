@@ -6,7 +6,6 @@ institution: University of Geneva – School of Pharmaceutical Sciences, Phytoch
 email: jean‑luc.wolfender@unige.ch
 orcid: https://orcid.org/0000-0002-0125-952X
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/jean-luc-wolfender.jpeg
 modules: ["leaflet"]

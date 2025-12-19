@@ -6,7 +6,6 @@ institution: National Institute of Plant Genome Research (NIPGR), New Delhi, Ind
 email: gy@nipgr.ac.in
 orcid: https://orcid.org/0000‑0001‑6591‑9964
 wikidata: https://www.wikidata.org/wiki/Q74425076
-scholia: https://scholia.toolforge.org/author/Q74425076
 thumbnail:
   url: /img/members/gita-yadav.jpeg
 modules: ["leaflet"]

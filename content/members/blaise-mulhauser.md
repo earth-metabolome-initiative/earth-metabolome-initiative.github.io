@@ -6,7 +6,6 @@ institution: University of Neuchâtel – Jardin Botanique, Director
 email: test@example.org
 orcid: 
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/blaise-mulhauser.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: Universidad de Santiago de Chile – Facultad de Química y Biolog�
 email: javier.echeverriam@usach.cl
 orcid: https://orcid.org/0000-0002-1688-968X
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/javier-echeveria.jpeg
 modules: ["leaflet"]

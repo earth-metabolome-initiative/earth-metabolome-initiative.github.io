@@ -6,7 +6,6 @@ institution: Assistant Professor / Researcher, RWTH Aachen University & Biopragm
 email: test@example.org
 orcid: https://orcid.org/0000-0003-4423-4370
 wikidata: https://www.wikidata.org/wiki/Q47475003
-scholia: https://scholia.toolforge.org/author/Q47475003
 thumbnail:
   url: /img/members/charles-hoyt.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: University of Zurich, Ethics Research Institute, Institute of Biome
 email: deplazes@ethik.uzh.ch
 orcid: https://orcid.org/0000-0002-1992-1622
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/anna-deplazes-zemp.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: University of Lausanne & SIB Swiss Institute of Bioinformatics – 
 email: robert.waterhouse@unil.ch
 orcid: https://orcid.org/0000-0003-4199-9052
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/robert-waterhouse.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: University of Zurich – Department of Evolutionary Biology & Envir
 email: cornelia.krug@uzh.ch
 orcid: https://orcid.org/0000-0002-2470-1229
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/cornelia-krug.jpeg
 modules: ["leaflet"]

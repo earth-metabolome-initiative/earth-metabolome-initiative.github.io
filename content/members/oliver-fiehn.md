@@ -6,7 +6,6 @@ institution: University of California, Davis – Genome Center / Department of M
 email: ofiehn@ucdavis.edu
 orcid: https://orcid.org/0000-0002-6261-8928
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/oliver-fiehn.jpeg
 modules: ["leaflet"]

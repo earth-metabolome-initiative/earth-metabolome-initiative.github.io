@@ -6,7 +6,6 @@ institution: COMMONS Lab, University of Fribourg – Department of Biology
 email: heloise.coen@unifr.ch
 orcid: 
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/heloise-coen.jpeg
 modules: ["leaflet"]

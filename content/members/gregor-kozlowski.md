@@ -6,7 +6,6 @@ institution: University of Fribourg – Botanic Garden & Department of Biology
 email: gregor.kozlowski@unifr.ch
 orcid: https://orcid.org/0000-0003-4856-2005
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/gregor-kozlowski.jpeg
 modules: ["leaflet"]

@@ -6,7 +6,6 @@ institution: National University of Ireland, Galway – School of Biological & C
 email: olivier.thomas@nuigalway.ie  
 orcid:  
 wikidata:  
-scholia:  
 thumbnail:  
   url: /img/members/olivier-thomas.jpeg  
 modules: ["leaflet"]  

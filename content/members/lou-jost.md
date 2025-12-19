@@ -6,7 +6,6 @@ institution: Ecominga, Baños de Agua Santa, Ecuador
 email: loujost@gmail.com
 orcid: https://orcid.org/0000-0002-5850-0716
 wikidata: https://www.wikidata.org/wiki/Q22669039
-scholia: https://scholia.toolforge.org/author/Q22669039
 thumbnail:
   url: /img/members/lou-jost.jpg
 modules: ["leaflet"]

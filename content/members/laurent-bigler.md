@@ -6,7 +6,6 @@ institution: University of Zurich – Department of Chemistry, Head of Mass Spec
 email: laurent.bigler@chem.uzh.ch
 orcid: https://orcid.org/0000-0003-3548-3594
 wikidata: 
-scholia: 
 thumbnail:
   url: /img/members/laurent-bigler.jpeg
 modules: ["leaflet"]

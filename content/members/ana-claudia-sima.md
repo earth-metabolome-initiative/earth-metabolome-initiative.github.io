@@ -6,7 +6,6 @@ institution: SIB Swiss Institute of Bioinformatics, Lausanne (Knowledge Represen
 email: test@example.org
 orcid: https://orcid.org/0000-0003-3213-4495
 wikidata:
-scholia:
 thumbnail:
   url: /img/members/ana-claudia-sima.jpeg
 modules: ["leaflet"]
