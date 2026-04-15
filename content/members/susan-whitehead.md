@@ -7,7 +7,7 @@ orcid: https://orcid.org/0000-0002-7089-4594
 wikidata: 
 website: https://www.speciesinteractions.com/
 thumbnail:
-  url: assets/img/members/susan-whitehead.jpeg # leave blank if you attach your photo below; otherwise add a direct https:// link
+  url: /img/members/susan-whitehead.jpeg # leave blank if you attach your photo below; otherwise add a direct https:// link
 popup: "Here I am"
 popupLat: 37.2219268 # latitude of your home institution (copy from OpenStreetMap/Nominatim)
 popupLong: -80.4272818 # longitude of your home institution
