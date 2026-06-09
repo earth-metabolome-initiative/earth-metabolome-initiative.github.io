@@ -43,7 +43,7 @@ Hinode is a theme that uses [Hugo modules][hugo_modules] to install and maintain
 
 - [Git][git_download]
 - [Go binary][golang_download]
-- [Node.js][nodejs] (it includes npm)
+- [Node.js][nodejs] 22 or newer (it includes npm)
 
 ## Installation
 

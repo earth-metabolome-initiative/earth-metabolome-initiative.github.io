@@ -47,6 +47,12 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: npm
+          cache-dependency-path: package-lock.json
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
