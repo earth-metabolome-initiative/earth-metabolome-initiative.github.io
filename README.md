@@ -65,6 +65,91 @@ Hinode is a theme that uses [Hugo modules][hugo_modules] to install and maintain
 
 You can now run `npm run start` to start a local development server.
 
+## Before committing and pushing
+
+Use this checklist when adding or editing a page.
+
+1. Start from the latest `develop` branch.
+
+    ```bash
+    git checkout develop
+    git pull
+    ```
+
+2. Install dependencies from the lockfile.
+
+    ```bash
+    npm ci
+    ```
+
+    Use `npm ci` for verification because it follows `package-lock.json` exactly. Avoid updating dependencies during routine content edits unless that is the intended change.
+
+3. Preview the site locally.
+
+    ```bash
+    npm run start
+    ```
+
+    Check that the edited page renders correctly and that links, images, shortcodes, and map data look right.
+
+4. Run the linters before committing.
+
+    ```bash
+    npm test
+    ```
+
+    This runs the project lint checks, including markdown, JavaScript, and SCSS linting. Common markdown issues are missing blank lines around lists, extra blank lines, and missing final newlines.
+
+5. Build the site before pushing if your change affects layout, styles, scripts, shortcodes, menus, or shared configuration.
+
+    ```bash
+    npm run build
+    ```
+
+6. Review and commit only the intended files.
+
+    ```bash
+    git status
+    git diff
+    git add path/to/changed-file.md
+    git commit -m "Add page title"
+    ```
+
+7. Push your branch or `develop`, then open or update the pull request.
+
+    ```bash
+    git push origin develop
+    ```
+
+## Merging to main
+
+Before merging `develop` into `main`, make sure the same checks pass on the final merged state.
+
+1. Update both branches.
+
+    ```bash
+    git checkout main
+    git pull
+    git checkout develop
+    git pull
+    ```
+
+2. Merge `main` into `develop` first and resolve any conflicts.
+
+    ```bash
+    git merge main
+    ```
+
+3. Re-run the install and checks.
+
+    ```bash
+    npm ci
+    npm test
+    npm run build
+    ```
+
+4. Push `develop`, confirm the GitHub checks pass, then merge `develop` into `main` using the pull request.
+
 <!-- MARKDOWN LINKS -->
 [docs]: https://gethinode.com/docs
 [git_download]: https://git-scm.com

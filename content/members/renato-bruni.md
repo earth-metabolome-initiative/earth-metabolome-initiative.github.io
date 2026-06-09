@@ -22,12 +22,11 @@ Renato is a phytochemist and the Scientific Director of the Botanical Gardens at
 I am interested in contributing to the Earth Metabolome Initiative by providing my expertise in phytochemistry and my role as the scientific director of the Botanical Gardens of the University of Parma. My research activities bridge pharmaceutical botany, phytochemistry, and plant biology, with a focus on characterising the secondary metabolome of plant species. As Scientific Director of the Botanical Garden of the University of Parma, I connect fundamental research with public education, conservation, and cultural outreach, making the garden a living platform for the study of plant–human relationships, with a unique focus on the role of plant secondary metabolites.
 
 I foresee the following contributions:
+
 - Plan sampling campaigns at the Botanical Gardens of the University of Parma
 - Promote the Earth Metabolome Initiative within other Italian botanical gardens
 - Perform metabolomic analyses on plants collected in the environment or within the Botanical Gardens.
 - Invest in public engagement initiatives focused on the role of secondary metabolites and their diversity in plant life, ecology and human activities.
-
-
 
 {{< persona_links >}}
 
