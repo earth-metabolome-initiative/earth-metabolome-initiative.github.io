@@ -14,6 +14,11 @@
   weight = 20
 
 [[main]]
+  name = "Toolbox"
+  pageRef = "/toolbox"
+  weight = 25
+
+[[main]]
   name = "What are we working on?"
   pageRef = "/wip"
   weight = 40
