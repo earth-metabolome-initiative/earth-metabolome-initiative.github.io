@@ -47,6 +47,17 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Checkout Directus explorer
+        uses: actions/checkout@v4
+        with:
+          repository: digital-botanical-gardens-initiative/directus-explorer
+          path: directus-explorer
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -69,6 +80,16 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
+      - name: Install taxonomy resolver
+        run: go install github.com/gnames/gnverifier@latest
+      - name: Refresh initiative counters
+        run: npm run -s data:stats
+        env:
+          EMI_REQUIRE_STATS: true
+          DIRECTUS_EXPLORER_DIR: directus-explorer
+          DIRECTUS_INSTANCE: ${{ secrets.DIRECTUS_INSTANCE }}
+          DIRECTUS_USERNAME: ${{ secrets.DIRECTUS_USERNAME }}
+          DIRECTUS_PASSWORD: ${{ secrets.DIRECTUS_PASSWORD }}
       - name: Build with Hugo
         run: |
           hugo \

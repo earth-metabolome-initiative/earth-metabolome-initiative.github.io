@@ -4,32 +4,59 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  pageRef = "/posts"
+  name = "About"
+  identifier = "about"
+  pageRef = "/about"
+  weight = 20
+
+[[main]]
+  name = "Vision & goals"
+  pageRef = "/about"
+  parent = "about"
+  weight = 20
+
+[[main]]
+  name = "Current work"
+  pageRef = "/wip"
+  parent = "about"
+  weight = 21
+
+[[main]]
+  name = "Open tools"
+  pageRef = "/toolbox"
+  parent = "about"
+  weight = 22
+
+[[main]]
+  name = "Missions"
+  pageRef = "/projects"
   weight = 30
 
 [[main]]
   name = "Network"
+  identifier = "network"
   pageRef = "/members"
-  weight = 20
-
-[[main]]
-  name = "Toolbox"
-  pageRef = "/toolbox"
-  weight = 25
-
-[[main]]
-  name = "What are we working on?"
-  pageRef = "/wip"
   weight = 40
 
 [[main]]
-  name = "Join us!"
+  name = "Members"
+  pageRef = "/members"
+  parent = "network"
+  weight = 30
+
+[[main]]
+  name = "Join the network"
   pageRef = "/join"
+  parent = "network"
+  weight = 31
+
+[[main]]
+  name = "News"
+  pageRef = "/posts"
   weight = 50
 
 [[main]]
-  name = "Support the EMI"
+  name = "Support EMI"
   pageRef = "/support"
   weight = 60
 
@@ -48,29 +75,5 @@
 [[social]]
   name = "Mastodon"
   pre = "fab mastodon"
-  url = "https://earthstream.social/@earth_metabolome"
+  url = "https://mastodon.social/@earth_metabolome"
   weight = 30
-
-# toml-docs-start sample-navigation
-[[sample]]
-  name = "Blog"
-  pageRef = "/blog/"
-  weight = 10
-
-[[sample]]
-  name = "Projects"
-  pageRef = "/projects/"
-  weight = 20
-
-[[sample]]
-  name = "Sample project"
-  pageRef = "/projects/sample-project/"
-  parent = "Projects"
-  weight = 1
-
-[[sample]]
-  name = "Another project"
-  pageRef = "/projects/another-project/"
-  parent = "Projects"
-  weight = 2
-# toml-docs-end sample-navigation
