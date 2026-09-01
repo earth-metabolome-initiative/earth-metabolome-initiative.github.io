@@ -110,19 +110,8 @@ Use `npm run start` if you want to preview the site locally. Use `npm run build`
 
 ## Merging to main
 
-Before merging `develop` into `main`, run:
-
-```bash
-git fetch origin
-git checkout develop
-git pull --ff-only origin develop
-git merge --ff-only origin/main
-npm ci
-npm test
-git push origin develop
-```
-
-Then merge `develop` into `main` from the GitHub pull request.
+After the checks pass, merge the pull request on GitHub. No additional local
+commands are required.
 
 <!-- MARKDOWN LINKS -->
 [docs]: https://gethinode.com/docs
