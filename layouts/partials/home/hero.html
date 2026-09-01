@@ -1,0 +1,26 @@
+{{- $hero := resources.Get "img/ecuador_river_red.jpg" -}}
+<section class="emi-hero" aria-label="Introduction">
+  {{ with $hero }}<img class="emi-hero-media" src="{{ .RelPermalink }}" alt="" loading="eager">{{ end }}
+  <div class="emi-hero-overlay" aria-hidden="true"></div>
+  <div class="emi-hero-inner">
+    <div class="emi-hero-copy">
+      <p class="emi-eyebrow">The Earth Metabolome Initiative</p>
+      <h1>Mapping the chemistry of life on Earth</h1>
+      <div class="emi-hero-lead">{{ .Content }}</div>
+      <div class="emi-actions">
+        <a class="btn btn-primary btn-lg" href="/about/">Explore the initiative</a>
+        <a class="btn btn-light btn-lg" href="/members/">Meet the network</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "home/status.html" . }}
+
+<section class="emi-principles" aria-label="Guiding principles">
+  <div class="container emi-principles-grid">
+    <div><strong>Global</strong><span>Across organisms, biomes, and regions</span></div>
+    <div><strong>Open</strong><span>Reusable data, standards, and software</span></div>
+    <div><strong>Collaborative</strong><span>Built by an interdisciplinary network</span></div>
+  </div>
+</section>

@@ -132,6 +132,9 @@ home = ["HTML", "RSS", "REDIR", "netlify", "server"]
     source = "assets/js/modules/leaflet/leaflet-mapcluster.js"
     target = "static/leaflet-mapcluster.js"
   [[module.mounts]]
+    source = "assets/js/emi-counters.js"
+    target = "static/emi-counters.js"
+  [[module.mounts]]
     source = "dist"
     target = "assets/scss"
     includeFiles = "leaflet.scss"

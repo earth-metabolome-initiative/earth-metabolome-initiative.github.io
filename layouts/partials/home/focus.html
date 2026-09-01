@@ -1,0 +1,19 @@
+{{- $steps := slice
+  (dict "number" "01" "title" "Sample" "body" "Coordinate well-documented sampling across living collections, wild populations, and ecosystems while preserving biological and environmental context.")
+  (dict "number" "02" "title" "Analyse" "body" "Use metabolomics and complementary approaches to capture chemical fingerprints and annotate the molecular diversity of life.")
+  (dict "number" "03" "title" "Connect" "body" "Link chemistry with specimens, taxonomy, geography, ecology, and open knowledge so that data can be found, compared, and reused.")
+-}}
+<section class="container emi-focus" aria-labelledby="emi-focus-heading">
+  <p class="emi-focus-intro">Biodiversity has a chemical dimension. EMI brings the people, methods, and infrastructure together to document it as an <span>open atlas of Earth’s chemodiversity</span>.</p>
+  <div class="emi-focus-grid">
+    <h2 id="emi-focus-heading">From biological diversity to reusable knowledge</h2>
+    <ol class="emi-workflow">
+      {{ range $steps }}
+      <li>
+        <span class="emi-workflow-number">{{ .number }}</span>
+        <div><h3>{{ .title }}</h3><p>{{ .body }}</p></div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
