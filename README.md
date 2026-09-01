@@ -42,8 +42,15 @@ Hinode is a clean blog theme for [Hugo][hugo], an open-source static site genera
 Hinode is a theme that uses [Hugo modules][hugo_modules] to install and maintain various components. The Hinode template requires the following software to be installed on your local machine. The Hugo binary itself is embedded as an npm binary.
 
 - [Git][git_download]
+- [GitHub CLI][github_cli]
 - [Go binary][golang_download]
 - [Node.js][nodejs] 22 or newer (it includes npm)
+
+Authenticate the GitHub CLI once before opening your first pull request:
+
+```bash
+gh auth login
+```
 
 ## Installation
 
@@ -85,19 +92,19 @@ git rev-list --left-right --count origin/main...origin/develop
 
 `0 0` means `main` and `develop` are aligned.
 
-## Before committing and pushing
+## Add a member and open a pull request
 
-For normal page edits:
+After adding the member profile and image on `develop`, run:
 
 ```bash
-npm ci
 npm test
-git status
-git diff
-git add path/to/changed-file.md
-git commit -m "Add page title"
+git add content/members assets/img/members
+git commit -m "Add new member"
 git push origin develop
+gh pr create --base main --head develop --fill
 ```
+
+The final command creates the pull request from `develop` to `main`.
 
 Use `npm run start` if you want to preview the site locally. Use `npm run build` when changing layouts, styles, scripts, shortcodes, menus, or shared configuration.
 
@@ -120,6 +127,7 @@ Then merge `develop` into `main` from the GitHub pull request.
 <!-- MARKDOWN LINKS -->
 [docs]: https://gethinode.com/docs
 [git_download]: https://git-scm.com
+[github_cli]: https://cli.github.com/
 [golang_download]: https://go.dev/dl/
 [hugo]: https://gohugo.io
 [hugo_modules]: https://gohugo.io/hugo-modules/
