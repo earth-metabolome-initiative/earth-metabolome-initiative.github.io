@@ -1,0 +1,20 @@
+{{- $members := where site.RegularPages "Type" "members" -}}
+{{- $markers := slice -}}
+{{- range $members -}}
+  {{- if and .Params.popupLat .Params.popupLong -}}
+    {{- $markers = $markers | append (dict "name" .Title "lat" .Params.popupLat "long" .Params.popupLong "popup" (.Params.popup | default .Title) "link" .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+<section class="container emi-network" aria-labelledby="emi-network-heading">
+  <div class="emi-section-header">
+    <div>
+      <p class="emi-eyebrow">The network</p>
+      <h2 id="emi-network-heading">A global community for chemodiversity</h2>
+    </div>
+    <a href="/members/">All {{ len $members }} members →</a>
+  </div>
+  <div class="emi-network-frame">
+    <div id="mapcluster" class="leaflet-cluster-map emi-network-map" data-map-markers="{{ $markers | jsonify }}"></div>
+    <div class="emi-network-note">Members contribute expertise across metabolomics, biodiversity, ecology, taxonomy, informatics, natural products, and conservation.</div>
+  </div>
+</section>

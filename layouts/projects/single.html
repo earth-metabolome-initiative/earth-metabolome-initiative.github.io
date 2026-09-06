@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{- $project := . -}}
+{{- $projectStats := index (site.Data.initiative_stats.projects | default dict) .File.ContentBaseName | default dict -}}
+<article class="emi-project-page">
+  <header class="container emi-project-hero">
+    <a class="emi-back-link" href="/projects/">← All missions</a>
+    <div class="emi-project-hero-grid">
+      <div>
+        <p class="emi-eyebrow">{{ .Params.mission_type }}</p>
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="emi-project-lead">{{ . }}</p>{{ end }}
+        {{ with .Params.website }}<a class="btn btn-primary" href="{{ . }}" rel="external">Visit project website ↗</a>{{ end }}
+      </div>
+      <dl class="emi-project-facts">
+        <div><dt>Location</dt><dd>{{ .Params.location }}</dd></div>
+        <div><dt>Focus</dt><dd>{{ .Params.focus }}</dd></div>
+        <div><dt>Scope</dt><dd>{{ .Params.scope }}</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  {{ with $projectStats }}
+  <section class="emi-project-status">
+    <div class="container">
+      <div class="emi-status-heading">
+        <p class="emi-eyebrow">{{ $project.Params.short_title | default $project.Title }} in numbers</p>
+        <p>Live contribution included in the EMI totals</p>
+      </div>
+      <div class="emi-status-grid">
+        <div><strong data-emi-counter="{{ .collected_samples }}">{{ .collected_samples | lang.FormatNumber 0 }}</strong><span class="emi-stat-label">{{ partial "icons/stat.html" "samples" }} Collected samples</span></div>
+        <div><strong data-emi-counter="{{ .covered_species }}">{{ .covered_species | lang.FormatNumber 0 }}</strong><span class="emi-stat-label">{{ partial "icons/stat.html" "species" }} Covered species</span></div>
+        <div><strong data-emi-counter="{{ .analysed_samples }}">{{ .analysed_samples | lang.FormatNumber 0 }}</strong><span class="emi-stat-label">{{ partial "icons/stat.html" "profiled" }} Analysed samples</span></div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <div class="container emi-project-detail-grid">
+    <div class="emi-project-content">{{ .Content }}</div>
+    {{ if and .Params.popupLat .Params.popupLong }}
+    <aside class="emi-project-location" aria-label="Mission location">
+      <div class="leaflet-map ratio ratio-4x3"
+        data-leaflet-view-title="{{ .Title }}"
+        data-leaflet-view-zoom="{{ if eq .Params.scope "Regional" }}7{{ else }}3{{ end }}"
+        data-leaflet-popup-caption="{{ .Params.popup | default .Title }}"
+        data-leaflet-popup-lat="{{ .Params.popupLat }}"
+        data-leaflet-popup-long="{{ .Params.popupLong }}"></div>
+      <p>Map position is indicative; see the project description for its geographic scope.</p>
+    </aside>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
