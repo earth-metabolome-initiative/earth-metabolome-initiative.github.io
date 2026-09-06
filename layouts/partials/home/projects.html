@@ -1,0 +1,27 @@
+{{- $projects := where site.RegularPages "Section" "projects" -}}
+{{- with $projects -}}
+<section class="emi-projects-home" aria-labelledby="emi-projects-home-heading">
+  <div class="container">
+    <div class="emi-section-header">
+      <div>
+        <p class="emi-eyebrow">Missions in practice</p>
+        <h2 id="emi-projects-home-heading">From a global vision to work on the ground</h2>
+      </div>
+      <a href="/projects/">Explore all missions →</a>
+    </div>
+    <div class="emi-project-grid">
+      {{ range .ByTitle }}
+      <a class="emi-project-card" href="{{ .RelPermalink }}">
+        <div class="emi-project-card-topline">
+          <span>{{ .Params.mission_type }}</span>
+          <span>{{ .Params.location }}</span>
+        </div>
+        <h3>{{ .Params.short_title | default .Title }}</h3>
+        <p>{{ .Description }}</p>
+        <span class="emi-project-link">View mission →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{- end -}}

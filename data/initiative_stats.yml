@@ -1,0 +1,19 @@
+generated_at: "2026-09-01T21:10:05.396Z"
+source_label: "Earth Metabolome Initiative Directus"
+project_group: "emi"
+collected_samples: 9755
+covered_species: 4052
+analysed_samples: 4100
+projects:
+  "dbgi":
+    selector_type: "group"
+    selector: "dbgi"
+    collected_samples: 7323
+    covered_species: 3938
+    analysed_samples: 2349
+  "vinesh-bioblitz":
+    selector_type: "project"
+    selector: "bioblitz_vinesch"
+    collected_samples: 257
+    covered_species: 92
+    analysed_samples: 245

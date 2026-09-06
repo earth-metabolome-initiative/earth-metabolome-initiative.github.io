@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="container emi-static-page">
+  <header class="emi-page-hero">
+    <p class="emi-eyebrow">About EMI</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  <div class="emi-static-content">{{ .Content }}</div>
+  <div class="emi-static-actions">
+    <a class="btn btn-primary" href="/wip/">See current work</a>
+    <a class="btn btn-outline-primary" href="/join/">Join the network</a>
+  </div>
+</article>
+{{ end }}

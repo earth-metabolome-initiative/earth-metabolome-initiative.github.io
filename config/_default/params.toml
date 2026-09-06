@@ -1,7 +1,7 @@
 [main]
     separator = "-"
-    description = "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
-    enableDarkMode = true
+    description = "A global open-science effort to document the chemistry of life on Earth."
+    enableDarkMode = false
     enableLanguageSelectionStorage = false
     modes = ["light", "dark"]
     canonifyAssetsURLs = false
@@ -29,8 +29,8 @@
     checkVersion = false
 
 [home]
-    sections = ["members"]
-    fullCover = true
+    sections = []
+    fullCover = false
     centerHeadline = false
     style = "gradient-featured"
     [home.feature]
@@ -44,7 +44,7 @@
     logo = "/img/emi_round_gold_simple.svg"
     color = "body"
     fixed = true
-    offset = "5.5rem"
+    offset = "4.5rem"
     search = true
     searchModal = false
     breadcrumb = true
@@ -153,8 +153,8 @@
     locale = "en-US"
     # twitter = "https://twitter.com/gethinode"
     # linkedIn = ""
-    github = "https://github.com/gethinode/hinode"
-    section = "blog"
+    github = "https://github.com/earth-metabolome-initiative"
+    section = "posts"
     [schema.author]
         name = "Earth Metabolome Initiative"
         linkedin = "https://www.linkedin.com/company/earth-metabolome-initiative/"

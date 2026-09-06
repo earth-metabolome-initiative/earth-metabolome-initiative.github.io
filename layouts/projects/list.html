@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{- $projects := .Pages.ByTitle -}}
+{{- $markers := slice -}}
+{{- range $projects -}}
+  {{- if and .Params.popupLat .Params.popupLong -}}
+    {{- $markers = $markers | append (dict "name" .Title "lat" .Params.popupLat "long" .Params.popupLong "popup" (.Params.popup | default .Title) "link" .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+<div class="emi-projects-page">
+  <section class="container emi-page-hero">
+    <p class="emi-eyebrow">EMI in action</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </section>
+
+  <section class="container emi-project-map-section" aria-labelledby="emi-project-map-heading">
+    <div class="emi-section-header emi-section-header-compact">
+      <div>
+        <p class="emi-eyebrow">Mission map</p>
+        <h2 id="emi-project-map-heading">Where the work connects</h2>
+      </div>
+      <span>{{ len $projects }} missions</span>
+    </div>
+    <div id="mapcluster" class="leaflet-cluster-map emi-project-map" data-map-markers="{{ $markers | jsonify }}"></div>
+    <p class="emi-map-note">Markers show a coordination point or broad mission area, not sampling boundaries.</p>
+  </section>
+
+  <section class="container emi-project-list" aria-labelledby="emi-project-list-heading">
+    <div class="emi-section-header">
+      <div>
+        <p class="emi-eyebrow">Current portfolio</p>
+        <h2 id="emi-project-list-heading">Projects and field missions</h2>
+      </div>
+    </div>
+    <div class="emi-project-grid">
+      {{ range $projects }}
+      <a class="emi-project-card" href="{{ .RelPermalink }}">
+        <div class="emi-project-card-topline"><span>{{ .Params.mission_type }}</span><span>{{ .Params.location }}</span></div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+        <dl>
+          <div><dt>Focus</dt><dd>{{ .Params.focus }}</dd></div>
+          <div><dt>Scope</dt><dd>{{ .Params.scope }}</dd></div>
+        </dl>
+        <span class="emi-project-link">View mission →</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="emi-project-framework">
+    <div class="container">
+      <p class="emi-eyebrow">A shared format</p>
+      <h2>Every mission tells the same essential story</h2>
+      <div class="emi-project-framework-grid">
+        <div><span>01</span><h3>Why</h3><p>A focused question and a concrete contribution to EMI.</p></div>
+        <div><span>02</span><h3>Where</h3><p>A place, collection, ecosystem, or distributed network.</p></div>
+        <div><span>03</span><h3>How</h3><p>Partners, sampling design, protocols, and open methods.</p></div>
+        <div><span>04</span><h3>What remains</h3><p>Samples, data, tools, publications, and reusable knowledge.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}

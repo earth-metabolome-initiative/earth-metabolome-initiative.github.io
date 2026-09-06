@@ -1,0 +1,19 @@
+{{- $posts := first 3 (where site.RegularPages.ByDate.Reverse "Section" "posts") -}}
+{{- with $posts -}}
+<section class="container emi-news" aria-labelledby="emi-news-heading">
+  <div class="emi-section-header">
+    <div><p class="emi-eyebrow">Updates</p><h2 id="emi-news-heading">Latest from the initiative</h2></div>
+    <a href="/posts/">All news →</a>
+  </div>
+  <div class="emi-news-grid">
+    {{ range . }}
+    <a class="emi-news-card" href="{{ .RelPermalink }}">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Summary | plainify | truncate 180 }}</p>
+      <span>Read update →</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{- end -}}

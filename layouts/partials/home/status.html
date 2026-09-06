@@ -1,0 +1,16 @@
+{{- $stats := site.Data.initiative_stats | default dict -}}
+<section class="emi-status" aria-label="Current data contribution">
+  <div class="container">
+    <div class="emi-status-heading">
+      <p class="emi-eyebrow">EMI in numbers</p>
+      <p>Current totals across the <strong>{{ $stats.project_group }}</strong> Directus project group</p>
+    </div>
+    <div class="emi-status-grid">
+      <div><strong data-emi-counter="{{ $stats.collected_samples }}">{{ $stats.collected_samples | lang.FormatNumber 0 }}</strong><span class="emi-stat-label">{{ partial "icons/stat.html" "samples" }} Collected samples</span></div>
+      <div><strong data-emi-counter="{{ $stats.covered_species }}">{{ $stats.covered_species | lang.FormatNumber 0 }}</strong><span class="emi-stat-label">{{ partial "icons/stat.html" "species" }} Covered species</span></div>
+      <div><strong data-emi-counter="{{ $stats.analysed_samples }}">{{ $stats.analysed_samples | lang.FormatNumber 0 }}</strong><span class="emi-stat-label">{{ partial "icons/stat.html" "profiled" }} Analysed samples</span></div>
+    </div>
+    {{ with $stats.generated_at }}<p class="emi-status-updated">Directus data refreshed {{ time.Format "2 January 2006" . }}</p>{{ end }}
+  </div>
+</section>
+<script src="/emi-counters.js" defer></script>

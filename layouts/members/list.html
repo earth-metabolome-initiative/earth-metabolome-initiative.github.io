@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{- $members := sort .Pages "Params.lastname" -}}
+{{- $markers := slice -}}
+{{- range $members -}}
+  {{- if and .Params.popupLat .Params.popupLong -}}
+    {{- $markers = $markers | append (dict "name" .Title "lat" .Params.popupLat "long" .Params.popupLong "popup" (.Params.popup | default .Title) "link" .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+<div class="emi-members-page">
+  <section class="container emi-page-hero">
+    <p class="emi-eyebrow">Network</p>
+    <h1>{{ .Title }}</h1>
+    <p>Meet the researchers and contributors building the Earth Metabolome Initiative.</p>
+  </section>
+
+  <section class="container emi-members-map" aria-label="Member map">
+    <div id="mapcluster" class="leaflet-cluster-map" data-map-markers="{{ $markers | jsonify }}"></div>
+  </section>
+
+  <section class="container emi-members-list">
+    <div class="emi-section-header emi-section-header-compact">
+      <h2>All members</h2>
+      <span>{{ len $members }} people</span>
+    </div>
+    <div class="emi-member-grid">
+      {{ range $members }}
+      {{- $member := . -}}
+      {{- $thumbnail := "" -}}
+      {{- if reflect.IsMap .Params.thumbnail }}{{ $thumbnail = .Params.thumbnail.url }}{{ end -}}
+      {{- $image := "" -}}
+      {{- with $thumbnail }}{{ $image = resources.Get (strings.TrimPrefix "/" .) }}{{ end -}}
+      <a class="emi-member-card" href="{{ .RelPermalink }}">
+        <div class="emi-member-photo">
+          {{ with $image }}{{ $crop := .Fill "360x360 Smart" }}<img src="{{ $crop.RelPermalink }}" alt="{{ $member.Title }}" loading="lazy" width="180" height="180">{{ else }}<span aria-hidden="true">{{ substr $member.Params.firstname 0 1 }}{{ substr $member.Params.lastname 0 1 }}</span>{{ end }}
+        </div>
+        <div class="emi-member-card-body">
+          <h3>{{ .Title }}</h3>
+          {{ with .Params.institution }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

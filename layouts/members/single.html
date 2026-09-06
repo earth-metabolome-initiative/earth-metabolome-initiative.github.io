@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{- $thumbnail := "" -}}
+{{- if reflect.IsMap .Params.thumbnail }}{{ $thumbnail = .Params.thumbnail.url }}{{ end -}}
+{{- $image := "" -}}
+{{- with $thumbnail }}{{ $image = resources.Get (strings.TrimPrefix "/" .) }}{{ end -}}
+<article class="container emi-person-page">
+  <a class="emi-back-link" href="/members/">← All members</a>
+  <div class="emi-person-hero">
+    <div class="emi-person-photo">
+      {{ with $image }}{{ $crop := .Fill "520x520 Smart" }}<img src="{{ $crop.RelPermalink }}" alt="{{ $.Title }}" width="260" height="260">{{ else }}<span aria-hidden="true">{{ substr .Params.firstname 0 1 }}{{ substr .Params.lastname 0 1 }}</span>{{ end }}
+    </div>
+    <div class="emi-person-intro">
+      <p class="emi-eyebrow">EMI member</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.institution }}<p class="emi-person-institution">{{ . }}</p>{{ end }}
+      <div class="emi-person-links">
+        {{ with .Params.orcid }}<a href="{{ . }}" target="_blank" rel="me noopener">ORCID</a>{{ end }}
+        {{ with .Params.wikidata }}{{ $matches := findRE "Q[0-9]+" (printf "%v" .) }}{{ if gt (len $matches) 0 }}{{ $qid := index $matches 0 }}<a href="https://www.wikidata.org/wiki/{{ $qid }}" target="_blank" rel="noopener">Wikidata</a><a href="https://scholia.toolforge.org/author/{{ $qid }}" target="_blank" rel="noopener">Scholia</a>{{ end }}{{ end }}
+        {{ with .Params.website }}<a href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="emi-person-content content">{{ .Content }}</div>
+</article>
+{{ end }}
