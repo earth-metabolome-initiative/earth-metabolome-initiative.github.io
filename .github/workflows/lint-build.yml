@@ -84,7 +84,7 @@ jobs:
     # Cache Hugo cachedir and resourcedir (configured in config/ci/hugo.toml) for each OS
     # No additional cache invalidation is needed, Hugo uses checksums itself
     - name: Use Hugo cache
-      uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
       with:
         path: ${{ runner.os == 'Windows' && env.CACHE_PATH_WIN || runner.os == 'macOS' && env.CACHE_PATH_MAC || env.CACHE_PATH_DEBIAN }}
         key: ${{ runner.os }}-${{ env.CACHE_KEY }}
