@@ -67,23 +67,29 @@ sample_rows = {
     row.qfield_project: row
     for row in client.summarize_samples_by_project()
 }
-species_rows = {}
-for key, projects in project_sets.items():
-    summaries = client._summarize_species_by_project_groups(
-        project_groups={key: projects}
-    )
-    if summaries:
-        species_rows[key] = summaries[0]
+col_ids_by_project = {}
+for row in client._get_items(
+    collection="Field_Data",
+    fields="qfield_project,taxon_col_id",
+):
+    project = row.get("qfield_project")
+    col_id = row.get("taxon_col_id")
+    if isinstance(project, str) and isinstance(col_id, str) and col_id.strip():
+        col_ids_by_project.setdefault(project, set()).add(col_id.strip())
 
 result = {}
 for key, projects in project_sets.items():
     rows = [sample_rows[project] for project in projects if project in sample_rows]
-    species = species_rows.get(key)
+    col_ids = {
+        col_id
+        for project in projects
+        for col_id in col_ids_by_project.get(project, ())
+    }
     result[key] = {
         "selector_type": selectors[key]["type"],
         "selector": selectors[key]["value"],
         "collected_samples": sum(row.collected_count for row in rows),
-        "covered_species": species.collected_count if species else 0,
+        "covered_species": len(col_ids),
         "analysed_samples": sum(row.profiled_count for row in rows),
     }
 

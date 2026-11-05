@@ -80,8 +80,6 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
-      - name: Install taxonomy resolver
-        run: go install github.com/gnames/gnverifier@latest
       - name: Refresh initiative counters
         run: npm run -s data:stats
         env:
