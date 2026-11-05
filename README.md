@@ -37,6 +37,19 @@
 
 Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Use this template if you would like to **take advantage of automation features**, provided by npm and GitHub actions. Visit the [docs][docs] for an alternative installation that uses Hugo only.
 
+## Initiative counters
+
+The homepage and mission pages read `data/initiative_stats.yml`. During deployment,
+`npm run data:stats` refreshes this file using the Directus credentials configured
+in the GitHub Actions workflow and the `directus-explorer` project-group mappings.
+Collected and analysed sample totals come from the project's sample summaries.
+Covered species counts distinct, non-empty `Field_Data.taxon_col_id` values
+within each group or mission. These are stored Catalogue of Life IDs, also
+represented in the `Taxa` table; unresolved records without a CoL ID are not
+counted. The EMI total deduplicates taxa shared by multiple projects rather
+than summing project species totals. No live taxonomy lookup runs during the
+website build.
+
 ## Prerequisites
 
 Hinode is a theme that uses [Hugo modules][hugo_modules] to install and maintain various components. The Hinode template requires the following software to be installed on your local machine. The Hugo binary itself is embedded as an npm binary.
