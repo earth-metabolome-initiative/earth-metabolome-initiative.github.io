@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     steps:
     - name: Check out repository
@@ -45,7 +45,7 @@ jobs:
       matrix:
         # Only test the production environment we deploy (Linux / Node 22).
         # Reintroduce macOS/Windows or other Node versions later if needed.
-        os: [ubuntu-latest]
+        os: [ubuntu-26.04]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
         node-version: [22.x]
 
